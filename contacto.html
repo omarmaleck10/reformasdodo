@@ -412,7 +412,7 @@ form.addEventListener('submit',function(e){
   var btn=form.querySelector('.form-btn');btn.disabled=true;
   setTimeout(function(){form.style.display='none';ok.style.display='block';},1100);
   // Produccion: reemplaza el setTimeout por fetch a Formspree:
-  // fetch('https://formspree.io/f/TU_ID',{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
+  // fetch('https://formspree.io/f/myklerzq',{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
 });
 document.querySelectorAll('.faq-q').forEach(function(q){
   q.addEventListener('click',function(){
