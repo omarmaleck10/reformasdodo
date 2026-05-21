@@ -409,10 +409,27 @@ form.addEventListener('submit',function(e){
   var n=document.getElementById('nombre').value.trim(),t=document.getElementById('telefono').value.trim(),tp=document.getElementById('tipo').value,p=document.getElementById('priv').checked;
   if(!n||!t||!tp){alert('Por favor completa: nombre, telefono y tipo de reforma.');return;}
   if(!p){alert('Por favor acepta la politica de privacidad.');return;}
-  var btn=form.querySelector('.form-btn');btn.disabled=true;
-  setTimeout(function(){form.style.display='none';ok.style.display='block';},1100);
-  // Produccion: reemplaza el setTimeout por fetch a Formspree:
-  // fetch('https://formspree.io/f/myklerzq',{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
+  var btn=form.querySelector('.form-btn');
+  btn.disabled=true;
+  btn.textContent='Enviando...';
+  fetch('https://formspree.io/f/myklerzq',{
+    method:'POST',
+    body:new FormData(form),
+    headers:{'Accept':'application/json'}
+  }).then(function(r){
+    if(r.ok){
+      form.style.display='none';
+      ok.style.display='block';
+    } else {
+      btn.disabled=false;
+      btn.textContent='Solicitar presupuesto de reforma gratis';
+      alert('Ha habido un error. Por favor llamanos al +34 632 632 439 o escribenos por WhatsApp.');
+    }
+  }).catch(function(){
+    btn.disabled=false;
+    btn.textContent='Solicitar presupuesto de reforma gratis';
+    alert('Error de conexion. Por favor llamanos al +34 632 632 439.');
+  });
 });
 document.querySelectorAll('.faq-q').forEach(function(q){
   q.addEventListener('click',function(){
