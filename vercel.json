@@ -1,0 +1,21 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/blog", "destination": "/blog/index.html" },
+    { "source": "/blog/:path*", "destination": "/blog/:path*.html" }
+  ],
+  "redirects": [
+    { "source": "/servicios.html", "destination": "/servicios", "permanent": true },
+    { "source": "/proyectos.html", "destination": "/proyectos", "permanent": true },
+    { "source": "/nosotros.html", "destination": "/nosotros", "permanent": true },
+    { "source": "/contacto.html", "destination": "/contacto", "permanent": true },
+    { "source": "/aviso-legal.html", "destination": "/aviso-legal", "permanent": true },
+    { "source": "/politica-privacidad.html", "destination": "/politica-privacidad", "permanent": true },
+    { "source": "/politica-cookies.html", "destination": "/politica-cookies", "permanent": true },
+    { "source": "/blog/index.html", "destination": "/blog", "permanent": true },
+    { "source": "/blog/cuanto-cuesta-reformar-bano-sevilla.html", "destination": "/blog/cuanto-cuesta-reformar-bano-sevilla", "permanent": true },
+    { "source": "/blog/reforma-integral-piso-sevilla-guia.html", "destination": "/blog/reforma-integral-piso-sevilla-guia", "permanent": true },
+    { "source": "/blog/reformar-cocina-sevilla-claves.html", "destination": "/blog/reformar-cocina-sevilla-claves", "permanent": true }
+  ]
+}
