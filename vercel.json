@@ -17,6 +17,9 @@
     { "source": "/blog/index.html", "destination": "/blog", "permanent": true },
     { "source": "/blog/cuanto-cuesta-reformar-bano-sevilla.html", "destination": "/blog/cuanto-cuesta-reformar-bano-sevilla", "permanent": true },
     { "source": "/blog/reforma-integral-piso-sevilla-guia.html", "destination": "/blog/reforma-integral-piso-sevilla-guia", "permanent": true },
-    { "source": "/blog/reformar-cocina-sevilla-claves.html", "destination": "/blog/reformar-cocina-sevilla-claves", "permanent": true }
+    { "source": "/blog/cuanto-cuesta-pintar-piso-sevilla.html", "destination": "/blog/cuanto-cuesta-pintar-piso-sevilla", "permanent": true},
+    {"source": "/blog/licencia-obras-reforma-sevilla.html", "destination": "/blog/licencia-obras-reforma-sevilla", "permanent": true},
+    {"source": "/blog/pintar-fachada-sevilla-precio.html", "destination": "/blog/pintar-fachada-sevilla-precio", "permanent": true},
+    {"source": "/blog/reformar-cocina-sevilla-claves.html", "destination": "/blog/reformar-cocina-sevilla-claves", "permanent": true }
   ]
 }
