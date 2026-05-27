@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es"><head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Licencia de obras para reformas en Sevilla: cuando la necesitas y como tramitarla | Reformas Dodo Sevilla</title>
-<meta name="description" content="Guia completa sobre licencias de obra en Sevilla 2026: cuando necesitas permiso para tu reforma, tipos de licencia, costes y como tramitarlas en el Ayuntamiento."/>
-<meta name="keywords" content="licencia obras reforma sevilla, permiso reforma sevilla, licencia obra menor sevilla, necesito licencia para reformar bano sevilla, tramites reforma sevilla ayuntamiento"/>
+<title>Licencia de obras para reformas en Sevilla 2026: cuando la necesitas | Reformas Dodo Sevilla</title>
+<meta name="description" content="Guia completa sobre licencias de obra en Sevilla 2026: cuando necesitas permiso, tipos de licencia, costes y como tramitarlas en el Ayuntamiento."/>
+<meta name="keywords" content="licencia obras reforma sevilla, permiso reforma sevilla, licencia obra menor sevilla, tramites reforma sevilla 2026"/>
 <meta name="robots" content="index,follow"/>
-<link rel="canonical" href="https://www.reformasdodo.com/blog/licencia-obras-reforma-sevilla"/>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Licencia de obras para reformas en Sevilla: cuando la necesitas y como tramitarla","author":{"@type":"Organization","name":"Reformas Dodo"},"publisher":{"@type":"Organization","name":"Reformas Dodo","url":"https://www.reformasdodo.com"}}</script>
+<link rel="canonical" href="https://www.reformasdodo.com/blog/licencia-obras-reforma-sevilla.html"/>
+<meta property="og:title" content="Reforma integral de piso en Sevilla: guia completa 2025"/>
+<meta property="og:description" content="Guia completa sobre licencias de obra en Sevilla 2026: cuando necesitas permiso, tipos de licencia, costes y como tramitarlas en el Ayuntamiento."/>
+<meta property="og:image" content="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=80"/>
 <link rel="icon" type="image/x-icon" href="/favicon.ico"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><link rel="manifest" href="/site.webmanifest"/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
 <style>
 /* ── RESET & TOKENS ── */
@@ -247,7 +249,7 @@ p{font-size:clamp(.9rem,1.5vw,1rem)}
 @media(max-width:540px){.srv-grid{grid-template-columns:1fr}.testi-grid{grid-template-columns:1fr}.hero-actions{flex-direction:column}.hero-actions .btn{width:100%;justify-content:center}.gal-grid{grid-template-columns:1fr;grid-template-rows:auto}.gal-item,.gal-item:first-child{grid-column:span 1;min-height:clamp(200px,55vw,280px)}.proc-grid{grid-template-columns:1fr}}
 
 .page-hero{background:var(--gd);padding:clamp(120px,15vw,160px) 0 clamp(56px,7vw,80px);position:relative;overflow:hidden}
-.page-hero::before{content:'';position:absolute;inset:0;opacity:.03;background:repeating-linear-gradient(0deg,transparent,transparent 40px,rgba(255,255,255,.5) 40px,rgba(255,255,255,.5) 41px),repeating-linear-gradient(90deg,transparent,transparent 40px,rgba(255,255,255,.5) 40px,rgba(255,255,255,.5) 41px)}
+.page-hero::before{content:'';position:absolute;inset:0;opacity:.04;background:repeating-linear-gradient(0deg,transparent,transparent 40px,rgba(255,255,255,.5) 40px,rgba(255,255,255,.5) 41px),repeating-linear-gradient(90deg,transparent,transparent 40px,rgba(255,255,255,.5) 40px,rgba(255,255,255,.5) 41px)}
 .ph-inner{position:relative;z-index:1}
 .breadcrumb{display:flex;flex-wrap:wrap;gap:6px;font-size:.68rem;color:rgba(255,255,255,.3);margin-bottom:16px}
 .breadcrumb a:hover{color:rgba(255,255,255,.65)}
@@ -257,60 +259,62 @@ p{font-size:clamp(.9rem,1.5vw,1rem)}
 .page-hero h1{color:var(--white);max-width:720px;margin-bottom:10px}
 .page-hero h1 em{font-style:normal;color:var(--go)}
 .ph-sub{color:rgba(255,255,255,.58);font-size:clamp(.88rem,1.4vw,1rem);max-width:520px;line-height:1.85}
-.art-layout{display:grid;grid-template-columns:1fr 300px;gap:clamp(28px,5vw,56px);align-items:start;padding:clamp(40px,6vw,68px) 0}
+
+.art-layout{display:grid;grid-template-columns:1fr 320px;gap:clamp(28px,5vw,56px);align-items:start;padding:clamp(40px,6vw,68px) 0}
 .art-body h2{font-family:var(--serif);font-size:clamp(1.2rem,2.5vw,1.6rem);color:var(--gd);margin:clamp(24px,4vw,36px) 0 10px}
-.art-body h3{font-family:var(--serif);font-size:clamp(1rem,1.8vw,1.2rem);color:var(--gd);margin:18px 0 7px}
+.art-body h3{font-family:var(--serif);font-size:clamp(1rem,1.8vw,1.2rem);color:var(--gd);margin:18px 0 8px}
 .art-body p{font-size:clamp(.88rem,1.3vw,.96rem);color:var(--muted);line-height:1.9;margin-bottom:14px}
 .art-body ul,.art-body ol{margin:8px 0 16px 22px;display:flex;flex-direction:column;gap:7px}
 .art-body li{font-size:clamp(.86rem,1.2vw,.93rem);color:var(--muted);line-height:1.75}
 .art-body ul li{list-style:disc}.art-body ol li{list-style:decimal}
 .art-body strong{color:var(--gd);font-weight:500}
 .art-body a{color:var(--gm)}.art-body a:hover{color:var(--gd)}
+.art-hero-img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:var(--r10);margin-bottom:clamp(20px,3vw,32px)}
 .art-meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:clamp(18px,3vw,28px);font-size:.75rem;color:var(--muted)}
 .art-cat{background:var(--gp);color:var(--gm);padding:3px 10px;border-radius:2px;font-size:.65rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase}
 .price-table{width:100%;border-collapse:collapse;margin:16px 0 20px;font-size:.88rem}
-.price-table th{background:var(--gd);color:var(--white);text-align:left;padding:10px 14px;font-size:.72rem;letter-spacing:.06em}
+.price-table th{background:var(--gd);color:var(--white);text-align:left;padding:10px 14px;font-weight:500;font-size:.72rem;letter-spacing:.06em}
 .price-table td{padding:10px 14px;border-bottom:1px solid var(--border);color:var(--muted)}
+.price-table tr:last-child td{border-bottom:none}
 .price-table tr:nth-child(even) td{background:var(--off)}
 .art-cta{background:var(--gd);border-radius:var(--r10);padding:clamp(20px,3vw,32px);text-align:center;margin:clamp(24px,4vw,36px) 0}
 .art-cta h3{font-family:var(--serif);color:var(--white);font-size:clamp(1.1rem,2vw,1.4rem);margin-bottom:8px}
 .art-cta p{color:rgba(255,255,255,.6);font-size:.88rem;margin-bottom:16px}
 .art-highlight{background:var(--gp);border-left:3px solid var(--go);padding:clamp(14px,2vw,20px);border-radius:0 var(--r10) var(--r10) 0;margin:16px 0 20px}
 .art-highlight p{color:var(--gd);margin:0;font-weight:500}
+/* sidebar */
 .art-sidebar{position:sticky;top:100px;display:flex;flex-direction:column;gap:20px}
 .sidebar-card{background:var(--white);border:1px solid var(--border);border-radius:var(--r10);padding:clamp(18px,2.5vw,24px)}
 .sidebar-card h4{font-family:var(--serif);font-size:1rem;color:var(--gd);margin-bottom:12px}
 .sidebar-card p{font-size:.82rem;color:var(--muted);line-height:1.7;margin-bottom:12px}
 .sidebar-links{display:flex;flex-direction:column;gap:8px}
-.sidebar-links a{font-size:.82rem;color:var(--gm)}
+.sidebar-links a{font-size:.82rem;color:var(--gm);transition:color var(--ease)}.sidebar-links a:hover{color:var(--gd)}
 @media(max-width:900px){.art-layout{grid-template-columns:1fr}.art-sidebar{position:static}}
-</style>
-</head><body>
+</style></head><body>
 <header class="site-header" id="site-header"><div class="wrap nav-wrap"><a href="/" class="nav-brand"><span class="nav-brand-name">Reformas Dodo</span></a><ul class="nav-links"><li><a href="/">Inicio</a></li><li><a href="/servicios">Servicios</a></li><li><a href="/proyectos">Proyectos</a></li><li><a href="/nosotros">Nosotros</a></li><li><a href="/blog" class=active>Blog</a></li><li><a href="/contacto">Contacto</a></li></ul><div class="nav-right"><a href="tel:+34632632439" class="nav-tel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 011 1.18 2 2 0 012.96 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+34 632 632 439</a><a href="/contacto" class="btn btn-gold">Presupuesto gratis</a></div><button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button></div></header><nav class="mob-nav" id="mob-nav"><a href="/" class="mob-link">Inicio</a><a href="/servicios" class="mob-link">Servicios</a><a href="/proyectos" class="mob-link">Proyectos</a><a href="/nosotros" class="mob-link">Nosotros</a><a href="/blog" class="mob-link">Blog</a><a href="/contacto" class="mob-link">Contacto</a><a href="tel:+34632632439" class="mob-link mob-tel">+34 632 632 439</a><a href="/contacto" class="mob-link mob-cta">Presupuesto gratis</a></nav>
-<div class="page-hero"><div class="wrap ph-inner">
-  <nav class="breadcrumb"><a href="/">Inicio</a><span>›</span><a href="/blog">Blog</a><span>›</span><span>Tramites y permisos · Sevilla</span></nav>
-  <div class="ph-ey"><span class="ph-line"></span><span class="ph-tag">Tramites y permisos · Sevilla</span></div>
+<div class="page-hero" style="padding-bottom:clamp(36px,5vw,56px)"><div class="wrap ph-inner">
+  <nav class="breadcrumb"><a href="/">Inicio</a><span>›</span><a href="/blog">Blog</a><span>›</span><span>Tramites y permisos · Sevilla 2026</span></nav>
+  <div class="ph-ey"><span class="ph-line"></span><span class="ph-tag">Tramites y permisos · Sevilla 2026</span></div>
   <h1>Licencia de obras para reformas en <em>Sevilla</em>: cuando la necesitas</h1>
-  <p class="ph-sub">Guia practica 2025: tipos de licencia, que reformas necesitan permiso y como tramitarlos en el Ayuntamiento de Sevilla.</p>
+  <p class="ph-sub">Guia practica 2026: tipos de licencia, que reformas necesitan permiso y como tramitarlos en el Ayuntamiento de Sevilla.</p>
 </div></div>
 <div style="background:var(--off)"><div class="wrap"><div class="art-layout">
-<article class="art-body">
+  <article class="art-body">
 <div class="art-meta">
   <span class="art-cat">Tramites y permisos</span>
-  <span>Mayo 2025</span>
+  <span>27 mayo 2026</span>
   <span>9 min de lectura</span>
   <span>Reformas Dodo · Sevilla</span>
 </div>
 
-<p>Una de las dudas mas frecuentes antes de empezar una reforma en Sevilla es: <strong>necesito licencia de obras o no?</strong> La respuesta depende del tipo de reforma que vayas a hacer. En esta guia te explicamos de forma clara que licencias existen en Sevilla, para que tipo de obras se necesita cada una y como tramitarlas.</p>
+<p>Una de las dudas mas frecuentes antes de empezar una reforma en Sevilla es: <strong>necesito licencia de obras o no?</strong> La respuesta depende del tipo de reforma. En esta guia te explicamos que licencias existen en Sevilla en 2026, para que obras se necesita cada una y como tramitarlas.</p>
 
 <h2>Tipos de licencias de obra en Sevilla</h2>
-<p>En Sevilla, la Gerencia de Urbanismo y Medio Ambiente es el organismo responsable de gestionar las licencias de obra. Hay tres tipos principales:</p>
+<p>En Sevilla, la Gerencia de Urbanismo y Medio Ambiente gestiona las licencias de obra. Hay tres tipos principales:</p>
 
-<h3>1. Declaracion Responsable (obras sin licencia previa)</h3>
-<p>Es el tramite mas sencillo. No necesitas esperar a que te concedan permiso — presentas una declaracion y puedes empezar las obras. Se aplica a:</p>
+<h3>1. Declaracion Responsable</h3>
+<p>El tramite mas sencillo. No necesitas esperar permiso — presentas la declaracion y puedes empezar. Se aplica a:</p>
 <ul>
-  <li>Pequenas obras de reparacion que no afecten a la estructura</li>
   <li>Cambio de revestimientos interiores (alicatados, suelos)</li>
   <li>Pintura interior y exterior</li>
   <li>Instalacion de cocinas y banos sin mover tabiques</li>
@@ -318,95 +322,76 @@ p{font-size:clamp(.9rem,1.5vw,1rem)}
 </ul>
 
 <h3>2. Licencia de Obra Menor</h3>
-<p>Para obras de mayor entidad que no afecten a la estructura del edificio. Requiere memoria tecnica y el pago de tasas. El plazo de tramitacion es de aproximadamente <strong>10 a 20 dias habiles</strong>. Se necesita para:</p>
+<p>Para obras que no afecten a la estructura. Requiere memoria tecnica y pago de tasas. Plazo: <strong>10 a 20 dias habiles</strong>. Se necesita para:</p>
 <ul>
-  <li>Reforma de bano o cocina con cambio de distribucion interior (sin mover muros)</li>
+  <li>Reforma de bano o cocina con cambio de distribucion interior</li>
   <li>Apertura de huecos en tabiques no estructurales</li>
   <li>Instalacion de aire acondicionado con unidad exterior visible</li>
   <li>Cambio de ventanas en fachada</li>
-  <li>Obras en terrazas o patios interiores</li>
 </ul>
 
 <h3>3. Licencia de Obra Mayor</h3>
-<p>Para obras de gran envergadura que afecten a la estructura del edificio o modifiquen su configuracion exterior. Requiere proyecto tecnico firmado por arquitecto o aparejador y visado por el Colegio Oficial. El plazo puede ser de <strong>2 a 6 meses</strong>. Se necesita para:</p>
+<p>Para obras que afecten a la estructura o modifiquen la fachada. Requiere proyecto de arquitecto. Plazo: <strong>2 a 6 meses</strong>. Se necesita para:</p>
 <ul>
   <li>Derribo o apertura de muros de carga</li>
-  <li>Cambios en la estructura del edificio</li>
   <li>Obras de ampliacion o nueva construccion</li>
-  <li>Reformas en edificios catalogados o con proteccion historica</li>
-  <li>Cambios en la fachada de edificios en el centro historico de Sevilla</li>
+  <li>Reformas en edificios catalogados o en el centro historico de Sevilla</li>
 </ul>
 
-<div class="art-highlight"><p>La mayoria de las reformas de bano, cocina y pintura en viviendas privadas de Sevilla se tramitan como Declaracion Responsable o Licencia de Obra Menor, sin necesidad de proyecto de arquitecto.</p></div>
-
-<h2>Que pasa si hago una reforma sin licencia en Sevilla?</h2>
-<p>Hacer obras sin la autorizacion necesaria en Sevilla puede tener consecuencias serias:</p>
-<ul>
-  <li><strong>Multa economica</strong> proporcional al coste de la obra y el tipo de infraccion</li>
-  <li><strong>Orden de derribo</strong> o restauracion al estado original si la obra no es legalizable</li>
-  <li><strong>Problemas al vender o alquilar</strong> la vivienda, ya que las obras no legalizadas aparecen en la nota simple registral</li>
-  <li><strong>Complicaciones con el seguro del hogar</strong> si hay un siniestro durante las obras no autorizadas</li>
-</ul>
+<div class="art-highlight"><p>La mayoria de las reformas de bano, cocina y pintura en viviendas de Sevilla se tramitan como Declaracion Responsable o Licencia de Obra Menor, sin necesidad de arquitecto.</p></div>
 
 <h2>Reformas que NO necesitan ningun tramite en Sevilla</h2>
-<p>Hay obras que puedes hacer sin ningun permiso ni declaracion previa:</p>
 <ul>
   <li>Pintura interior de paredes y techos</li>
   <li>Cambio de suelo laminado sin alterar el forjado</li>
   <li>Cambio de sanitarios por otros del mismo tamano</li>
   <li>Cambio de griferia</li>
-  <li>Instalacion de mobiliario de cocina sin cambiar instalaciones</li>
   <li>Pequenas reparaciones de fontaneria y electricidad sin ampliacion</li>
 </ul>
 
-<h2>Cuanto cuesta la licencia de obras en Sevilla?</h2>
-<p>Las tasas municipales en Sevilla se calculan como un porcentaje del presupuesto de la obra:</p>
+<h2>Cuanto cuesta la licencia de obras en Sevilla en 2026?</h2>
 <table class="price-table">
   <tr><th>Tipo de tramite</th><th>Coste orientativo</th><th>Plazo</th></tr>
   <tr><td>Declaracion Responsable</td><td>50 - 200 €</td><td>Inmediato</td></tr>
-  <tr><td>Licencia de Obra Menor</td><td>150 - 800 €</td><td>10-20 dias</td></tr>
-  <tr><td>Licencia de Obra Mayor</td><td>500 - varios miles €</td><td>2-6 meses</td></tr>
+  <tr><td>Licencia de Obra Menor</td><td>150 - 900 €</td><td>10-20 dias</td></tr>
+  <tr><td>Licencia de Obra Mayor</td><td>500 € en adelante</td><td>2-6 meses</td></tr>
 </table>
-<p>A esto hay que sumar el coste del proyecto tecnico en el caso de obra mayor (entre 1.000 y 5.000 euros dependiendo de la complejidad) y el visado del Colegio de Arquitectos.</p>
 
-<h2>Reformas en el centro historico de Sevilla: requisitos especiales</h2>
-<p>Si tu vivienda se encuentra en el <strong>centro historico de Sevilla</strong> (Triana, Macarena, San Bernardo, casco antiguo), los requisitos son mas estrictos. Cualquier modificacion de fachada, aunque sea menor, puede requerir licencia de obra mayor o informe de patrimonio. En Reformas Dodo conocemos bien la normativa del centro historico sevillano y te asesoramos sobre los tramites necesarios antes de empezar.</p>
-
-<h2>Donde tramitar la licencia de obras en Sevilla?</h2>
-<p>Las licencias de obra en Sevilla se tramitan en la <strong>Gerencia de Urbanismo y Medio Ambiente</strong>, ubicada en Av. Carlos III, s/n. Tambien puedes iniciar el tramite online a traves de la sede electronica del Ayuntamiento de Sevilla con certificado digital.</p>
+<h2>Reformas en el centro historico de Sevilla</h2>
+<p>Si tu vivienda se encuentra en el <strong>centro historico de Sevilla</strong> (Triana, Macarena, San Bernardo, casco antiguo), los requisitos son mas estrictos. Cualquier modificacion de fachada puede requerir licencia de obra mayor o informe de patrimonio. En Reformas Dodo conocemos bien la normativa local y te asesoramos antes de empezar.</p>
 
 <div class="art-cta">
-  <h3>¿Necesitas ayuda con tu reforma en Sevilla?</h3>
-  <p>En Reformas Dodo te asesoramos sobre los tramites necesarios para tu reforma y nos encargamos de gestionarlos. Presupuesto gratuito.</p>
+  <h3>Dudas sobre los tramites para tu reforma en Sevilla?</h3>
+  <p>En Reformas Dodo te asesoramos y nos encargamos de gestionar los permisos necesarios. Presupuesto gratuito.</p>
   <a href="/contacto" class="btn btn-gold">Solicitar asesoramiento gratis</a>
 </div>
 
-<h2>Resumen: ¿necesito licencia para mi reforma en Sevilla?</h2>
-<p>Como regla general: si tu reforma no toca muros estructurales, no modifica la fachada y no cambia el uso del edificio, probablemente solo necesites una Declaracion Responsable o Licencia de Obra Menor. Si tienes dudas, consultanos antes de empezar — es mejor saber con antelacion que enfrentarse a una sancion despues.</p>
-<p>En <a href="/">Reformas Dodo</a> realizamos todo tipo de reformas en Sevilla y gestionamos los tramites administrativos necesarios para que no tengas que preocuparte de la burocracia.</p>
+<h2>Conclusion</h2>
+<p>Si tu reforma no toca muros estructurales, no modifica la fachada y no cambia el uso del edificio, probablemente solo necesites una Declaracion Responsable o Licencia de Obra Menor. En <a href="/">Reformas Dodo</a> realizamos todo tipo de reformas en Sevilla y gestionamos los tramites administrativos necesarios.</p>
 </article>
-<aside class="art-sidebar">
+  <aside class="art-sidebar">
   <div class="sidebar-card" style="background:var(--gd);border-color:var(--gd)">
     <h4 style="color:var(--white)">Presupuesto gratis en 24h</h4>
-    <p style="color:rgba(255,255,255,.6)">Cuentanos tu proyecto y te respondemos con presupuesto detallado sin compromiso.</p>
-    <a href="/contacto" class="btn btn-gold" style="width:100%;justify-content:center">Pedir presupuesto</a>
+    <p style="color:rgba(255,255,255,.6)">Cuéntanos tu proyecto y te respondemos con un presupuesto detallado sin compromiso.</p>
+    <a href="/contacto.html" class="btn btn-gold" style="width:100%;justify-content:center">Pedir presupuesto</a>
   </div>
   <div class="sidebar-card">
-    <h4>Mas articulos</h4>
+    <h4>Otros artículos</h4>
     <div class="sidebar-links">
       <a href="/blog/cuanto-cuesta-reformar-bano-sevilla">Cuanto cuesta reformar un bano en Sevilla</a>
       <a href="/blog/reforma-integral-piso-sevilla-guia">Reforma integral de piso en Sevilla</a>
       <a href="/blog/reformar-cocina-sevilla-claves">Claves para reformar tu cocina en Sevilla</a>
       <a href="/blog/cuanto-cuesta-pintar-piso-sevilla">Cuanto cuesta pintar un piso en Sevilla</a>
-      <a href="/blog/pintar-fachada-sevilla-precio">Precio de pintar fachada en Sevilla</a>
+      <a href="/blog/licencia-obras-reforma-sevilla">Licencias de obra en Sevilla</a>
+      <a href="/blog/pintar-fachada-sevilla-precio">Precio pintar fachada en Sevilla</a>
     </div>
   </div>
   <div class="sidebar-card">
     <h4>Contacto directo</h4>
-    <p>Llamanos o escribenos por WhatsApp.</p>
+    <p>Llámanos o escríbenos por WhatsApp.</p>
     <div style="display:flex;flex-direction:column;gap:8px">
       <a href="tel:+34632632439" class="btn btn-ghost-g" style="width:100%;justify-content:center;font-size:.74rem">+34 632 632 439</a>
-      <a href="https://wa.me/34632632439" target="_blank" rel="noopener" style="width:100%;justify-content:center;display:inline-flex;align-items:center;gap:8px;padding:11px 20px;font-size:.74rem;font-weight:500;letter-spacing:.09em;text-transform:uppercase;background:#25D366;color:#fff;border-radius:2px">WhatsApp</a>
+      <a href="https://wa.me/34632632439" target="_blank" rel="noopener" class="btn btn-gold" style="width:100%;justify-content:center;font-size:.74rem;background:#25D366;color:#fff">WhatsApp</a>
     </div>
   </div>
 </aside>
@@ -460,21 +445,82 @@ p{font-size:clamp(.9rem,1.5vw,1rem)}
     </div>
     <p class="footer-seo" aria-hidden="true">Reformas Sevilla · Reformas integrales Sevilla · Empresa reformas Sevilla · Reformas bano Sevilla · Reformas cocina Sevilla · Reforma piso Sevilla · Reformas Andalucia · Albanileria Sevilla · Fontaneria Sevilla · Pintura Sevilla · Presupuesto reformas Sevilla · Reformas Dos Hermanas · Reformas Alcala de Guadaira · Reformas Mairena del Aljarafe · Empresa reformas Triana · Reformas Nervion Sevilla</p>
   </div>
-</footer><div class="floating-cta"><a href="https://wa.me/34632632439?text=Hola%2C%20me%20gustaria%20pedir%20presupuesto%20de%20reforma%20en%20Sevilla." class="fb fb-wa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.555 4.122 1.524 5.863L.057 23.885a.5.5 0 00.608.628l6.178-1.62A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.9a9.9 9.9 0 01-5.042-1.372l-.362-.215-3.734.979.996-3.639-.237-.374A9.865 9.865 0 012.1 12C2.1 6.535 6.535 2.1 12 2.1c5.463 0 9.9 4.435 9.9 9.9 0 5.463-4.437 9.9-9.9 9.9z"/></svg><span>WhatsApp</span></a><a href="tel:+34632632439" class="fb fb-ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 011 1.18 2 2 0 012.96 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><span>Llamar</span></a></div><div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;background:var(--gd);color:rgba(255,255,255,.85);padding:clamp(14px,2vw,20px) clamp(16px,4vw,32px);box-shadow:0 -4px 24px rgba(0,0,0,.2)"><div style="max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:clamp(12px,3vw,28px);flex-wrap:wrap"><p style="font-size:clamp(.78rem,1.2vw,.88rem);line-height:1.6;margin:0;flex:1;min-width:240px">Usamos cookies para mejorar tu experiencia. <a href="/politica-cookies" style="color:var(--go);text-decoration:underline">Politica de Cookies</a></p><div style="display:flex;gap:8px;flex-wrap:wrap;flex-shrink:0"><button id="cookie-reject" style="padding:9px 18px;font-size:.72rem;font-weight:500;letter-spacing:.07em;text-transform:uppercase;border:1px solid rgba(255,255,255,.3);border-radius:2px;color:rgba(255,255,255,.7);background:transparent;cursor:pointer">Solo esenciales</button><button id="cookie-accept" style="padding:9px 18px;font-size:.72rem;font-weight:500;letter-spacing:.07em;text-transform:uppercase;background:var(--go);color:var(--gd);border:none;border-radius:2px;cursor:pointer">Aceptar todas</button></div></div></div><script>
+</footer><div class="floating-cta" aria-label="Contacto rápido">
+  <a href="https://wa.me/34632632439?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20un%20presupuesto%20de%20reforma." class="fb fb-wa" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.555 4.122 1.524 5.863L.057 23.885a.5.5 0 00.608.628l6.178-1.62A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.9a9.9 9.9 0 01-5.042-1.372l-.362-.215-3.734.979.996-3.639-.237-.374A9.865 9.865 0 012.1 12C2.1 6.535 6.535 2.1 12 2.1c5.463 0 9.9 4.435 9.9 9.9 0 5.463-4.437 9.9-9.9 9.9z"/></svg>
+    <span>WhatsApp</span>
+  </a>
+  <a href="tel:+34632632439" class="fb fb-ph" aria-label="Llamar a Reformas Dodo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 011 1.18 2 2 0 012.96 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+    <span>Llamar</span>
+  </a>
+</div>
+<script>
 (function(){
+  // Header scroll
   var h=document.getElementById('site-header');
   window.addEventListener('scroll',function(){h.classList.toggle('scrolled',window.scrollY>50)},{passive:true});
+
+  // Mobile nav
   var hb=document.getElementById('hamburger'),mn=document.getElementById('mob-nav');
-  function cm(){hb.setAttribute('aria-expanded','false');mn.classList.remove('open');document.body.style.overflow='';}
-  if(hb&&mn){hb.addEventListener('click',function(){var o=mn.classList.contains('open');if(o)cm();else{hb.setAttribute('aria-expanded','true');mn.classList.add('open');document.body.style.overflow='hidden';}});
-  mn.querySelectorAll('.mob-link').forEach(function(l){l.addEventListener('click',cm);});
-  window.addEventListener('resize',function(){if(window.innerWidth>768)cm();});}
-  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('on');io.unobserve(x.target);}});},{threshold:0.08});document.querySelectorAll('.rev').forEach(function(el){io.observe(el);});}else{document.querySelectorAll('.rev').forEach(function(el){el.classList.add('on');});}
+  function closeMob(){
+    hb.setAttribute('aria-expanded','false');
+    mn.classList.remove('open');
+    document.body.style.overflow='';
+  }
+  if(hb&&mn){
+    hb.addEventListener('click',function(){
+      var open=mn.classList.contains('open');
+      if(open){closeMob();}
+      else{hb.setAttribute('aria-expanded','true');mn.classList.add('open');document.body.style.overflow='hidden';}
+    });
+    mn.querySelectorAll('.mob-link').forEach(function(l){l.addEventListener('click',closeMob);});
+    // Close on resize to desktop
+    window.addEventListener('resize',function(){if(window.innerWidth>768)closeMob();});
+  }
+
+  // Scroll reveal
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}});
+    },{threshold:0.08,rootMargin:'0px 0px -32px 0px'});
+    document.querySelectorAll('.rev').forEach(function(el){io.observe(el);});
+  } else {
+    document.querySelectorAll('.rev').forEach(function(el){el.classList.add('on');});
+  }
+})();
+</script>
+
+<!-- COOKIE BANNER -->
+<div id="cookie-banner" role="dialog" aria-live="polite" aria-label="Aviso de cookies" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;background:var(--gd);color:rgba(255,255,255,.85);padding:clamp(14px,2vw,20px) clamp(16px,4vw,32px);box-shadow:0 -4px 24px rgba(0,0,0,.2);animation:slideUp .4s ease">
+  <div style="max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:clamp(12px,3vw,28px);flex-wrap:wrap">
+    <div style="flex:1;min-width:240px">
+      <p style="font-size:clamp(.78rem,1.2vw,.88rem);line-height:1.6;margin:0">
+        Usamos cookies propias y de terceros para mejorar tu experiencia y analizar el trafico. Puedes aceptar todas, rechazar las no esenciales o personalizar tu eleccion.
+        <a href="/politica-cookies.html" style="color:var(--go);text-decoration:underline;margin-left:4px">Politica de Cookies</a> ·
+        <a href="/politica-privacidad.html" style="color:var(--go);text-decoration:underline">Privacidad</a>
+      </p>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;flex-shrink:0">
+      <button id="cookie-reject" style="padding:9px 18px;font-size:.72rem;font-weight:500;letter-spacing:.07em;text-transform:uppercase;border:1px solid rgba(255,255,255,.3);border-radius:2px;color:rgba(255,255,255,.7);background:transparent;cursor:pointer;transition:all .2s">Solo esenciales</button>
+      <button id="cookie-accept" style="padding:9px 18px;font-size:.72rem;font-weight:500;letter-spacing:.07em;text-transform:uppercase;background:var(--go);color:var(--gd);border:none;border-radius:2px;cursor:pointer;transition:all .2s">Aceptar todas</button>
+    </div>
+  </div>
+</div>
+<style>@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}</style>
+<script>
+(function(){
   var banner=document.getElementById('cookie-banner');
-  if(banner&&!localStorage.getItem('cookieConsent'))setTimeout(function(){banner.style.display='block';},800);
-  var ca=document.getElementById('cookie-accept'),cr=document.getElementById('cookie-reject');
-  if(ca)ca.addEventListener('click',function(){localStorage.setItem('cookieConsent','all');banner.style.display='none';});
-  if(cr)cr.addEventListener('click',function(){localStorage.setItem('cookieConsent','essential');banner.style.display='none';});
+  var consent=localStorage.getItem('cookieConsent');
+  if(!consent) setTimeout(function(){banner.style.display='block';},800);
+  document.getElementById('cookie-accept').addEventListener('click',function(){
+    localStorage.setItem('cookieConsent','all');
+    banner.style.display='none';
+  });
+  document.getElementById('cookie-reject').addEventListener('click',function(){
+    localStorage.setItem('cookieConsent','essential');
+    banner.style.display='none';
+  });
 })();
 </script>
 </body></html>
