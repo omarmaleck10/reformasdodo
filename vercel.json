@@ -5,39 +5,207 @@
     {
       "source": "/blog/(.*)",
       "headers": [
-        { "key": "Content-Type", "value": "text/html; charset=utf-8" }
+        {
+          "key": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        }
       ]
     }
   ],
   "rewrites": [
-    { "source": "/blog", "destination": "/blog/index.html" },
-    { "source": "/blog/", "destination": "/blog/index.html" },
-    { "source": "/blog/:slug", "destination": "/blog/:slug.html" }
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/reforma-integral-piso-sevilla-guia",
+      "destination": "/blog/reforma-integral-piso-sevilla-guia.html"
+    },
+    {
+      "source": "/blog/cuanto-cuesta-reformar-bano-sevilla",
+      "destination": "/blog/cuanto-cuesta-reformar-bano-sevilla.html"
+    },
+    {
+      "source": "/blog/reformar-cocina-sevilla-claves",
+      "destination": "/blog/reformar-cocina-sevilla-claves.html"
+    },
+    {
+      "source": "/blog/cuanto-cuesta-pintar-piso-sevilla",
+      "destination": "/blog/cuanto-cuesta-pintar-piso-sevilla.html"
+    },
+    {
+      "source": "/blog/licencia-obras-reforma-sevilla",
+      "destination": "/blog/licencia-obras-reforma-sevilla.html"
+    },
+    {
+      "source": "/blog/pintar-fachada-sevilla-precio",
+      "destination": "/blog/pintar-fachada-sevilla-precio.html"
+    },
+    {
+      "source": "/reformas-dos-hermanas",
+      "destination": "/reformas-dos-hermanas.html"
+    },
+    {
+      "source": "/reformas-alcala-de-guadaira",
+      "destination": "/reformas-alcala-de-guadaira.html"
+    },
+    {
+      "source": "/reformas-utrera",
+      "destination": "/reformas-utrera.html"
+    },
+    {
+      "source": "/reformas-mairena-del-aljarafe",
+      "destination": "/reformas-mairena-del-aljarafe.html"
+    },
+    {
+      "source": "/reformas-la-rinconada",
+      "destination": "/reformas-la-rinconada.html"
+    },
+    {
+      "source": "/reformas-coria-del-rio",
+      "destination": "/reformas-coria-del-rio.html"
+    },
+    {
+      "source": "/reformas-camas",
+      "destination": "/reformas-camas.html"
+    },
+    {
+      "source": "/reformas-tomares",
+      "destination": "/reformas-tomares.html"
+    },
+    {
+      "source": "/reformas-san-juan-de-aznalfarache",
+      "destination": "/reformas-san-juan-de-aznalfarache.html"
+    },
+    {
+      "source": "/reformas-bormujos",
+      "destination": "/reformas-bormujos.html"
+    }
   ],
   "redirects": [
-    { "source": "/servicios.html", "destination": "/servicios", "permanent": true },
-    { "source": "/proyectos.html", "destination": "/proyectos", "permanent": true },
-    { "source": "/nosotros.html", "destination": "/nosotros", "permanent": true },
-    { "source": "/contacto.html", "destination": "/contacto", "permanent": true },
-    { "source": "/aviso-legal.html", "destination": "/aviso-legal", "permanent": true },
-    { "source": "/politica-privacidad.html", "destination": "/politica-privacidad", "permanent": true },
-    { "source": "/politica-cookies.html", "destination": "/politica-cookies", "permanent": true },
-    { "source": "/blog/index.html", "destination": "/blog", "permanent": true },
-    { "source": "/blog/cuanto-cuesta-reformar-bano-sevilla.html", "destination": "/blog/cuanto-cuesta-reformar-bano-sevilla", "permanent": true },
-    { "source": "/blog/reforma-integral-piso-sevilla-guia.html", "destination": "/blog/reforma-integral-piso-sevilla-guia", "permanent": true },
-    { "source": "/blog/reformar-cocina-sevilla-claves.html", "destination": "/blog/reformar-cocina-sevilla-claves", "permanent": true },
-    { "source": "/blog/cuanto-cuesta-pintar-piso-sevilla.html", "destination": "/blog/cuanto-cuesta-pintar-piso-sevilla", "permanent": true },
-    { "source": "/blog/licencia-obras-reforma-sevilla.html", "destination": "/blog/licencia-obras-reforma-sevilla", "permanent": true },
-    { "source": "/blog/pintar-fachada-sevilla-precio.html", "destination": "/blog/pintar-fachada-sevilla-precio", "permanent": true },
-    { "source": "/reformas-dos-hermanas.html", "destination": "/reformas-dos-hermanas", "permanent": true },
-    { "source": "/reformas-alcala-de-guadaira.html", "destination": "/reformas-alcala-de-guadaira", "permanent": true },
-    { "source": "/reformas-utrera.html", "destination": "/reformas-utrera", "permanent": true },
-    { "source": "/reformas-mairena-del-aljarafe.html", "destination": "/reformas-mairena-del-aljarafe", "permanent": true },
-    { "source": "/reformas-la-rinconada.html", "destination": "/reformas-la-rinconada", "permanent": true },
-    { "source": "/reformas-coria-del-rio.html", "destination": "/reformas-coria-del-rio", "permanent": true },
-    { "source": "/reformas-camas.html", "destination": "/reformas-camas", "permanent": true },
-    { "source": "/reformas-tomares.html", "destination": "/reformas-tomares", "permanent": true },
-    { "source": "/reformas-san-juan-de-aznalfarache.html", "destination": "/reformas-san-juan-de-aznalfarache", "permanent": true },
-    { "source": "/reformas-bormujos.html", "destination": "/reformas-bormujos", "permanent": true }
+    {
+      "source": "/servicios.html",
+      "destination": "/servicios",
+      "permanent": true
+    },
+    {
+      "source": "/proyectos.html",
+      "destination": "/proyectos",
+      "permanent": true
+    },
+    {
+      "source": "/nosotros.html",
+      "destination": "/nosotros",
+      "permanent": true
+    },
+    {
+      "source": "/contacto.html",
+      "destination": "/contacto",
+      "permanent": true
+    },
+    {
+      "source": "/aviso-legal.html",
+      "destination": "/aviso-legal",
+      "permanent": true
+    },
+    {
+      "source": "/politica-privacidad.html",
+      "destination": "/politica-privacidad",
+      "permanent": true
+    },
+    {
+      "source": "/politica-cookies.html",
+      "destination": "/politica-cookies",
+      "permanent": true
+    },
+    {
+      "source": "/blog/index.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cuanto-cuesta-reformar-bano-sevilla.html",
+      "destination": "/blog/cuanto-cuesta-reformar-bano-sevilla",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reforma-integral-piso-sevilla-guia.html",
+      "destination": "/blog/reforma-integral-piso-sevilla-guia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reformar-cocina-sevilla-claves.html",
+      "destination": "/blog/reformar-cocina-sevilla-claves",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cuanto-cuesta-pintar-piso-sevilla.html",
+      "destination": "/blog/cuanto-cuesta-pintar-piso-sevilla",
+      "permanent": true
+    },
+    {
+      "source": "/blog/licencia-obras-reforma-sevilla.html",
+      "destination": "/blog/licencia-obras-reforma-sevilla",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pintar-fachada-sevilla-precio.html",
+      "destination": "/blog/pintar-fachada-sevilla-precio",
+      "permanent": true
+    },
+    {
+      "source": "/reformas-dos-hermanas.html",
+      "destination": "/reformas-dos-hermanas",
+      "permanent": true
+    },
+    {
+      "source": "/reformas-alcala-de-guadaira.html",
+      "destination": "/reformas-alcala-de-guadaira",
+      "permanent": true
+    },
+    {
+      "source": "/reformas-utrera.html",
+      "destination": "/reformas-utrera",
+      "permanent": true
+    },
+    {
+      "source": "/reformas-mairena-del-aljarafe.html",
+      "destination": "/reformas-mairena-del-aljarafe",
+      "permanent": true
+    },
+    {
+      "source": "/reformas-la-rinconada.html",
+      "destination": "/reformas-la-rinconada",
+      "permanent": true
+    },
+    {
+      "source": "/reformas-coria-del-rio.html",
+      "destination": "/reformas-coria-del-rio",
+      "permanent": true
+    },
+    {
+      "source": "/reformas-camas.html",
+      "destination": "/reformas-camas",
+      "permanent": true
+    },
+    {
+      "source": "/reformas-tomares.html",
+      "destination": "/reformas-tomares",
+      "permanent": true
+    },
+    {
+      "source": "/reformas-san-juan-de-aznalfarache.html",
+      "destination": "/reformas-san-juan-de-aznalfarache",
+      "permanent": true
+    },
+    {
+      "source": "/reformas-bormujos.html",
+      "destination": "/reformas-bormujos",
+      "permanent": true
+    }
   ]
 }
