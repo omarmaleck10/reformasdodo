@@ -136,6 +136,11 @@
       "source": "/reformas-bormujos.html",
       "destination": "/reformas-bormujos",
       "permanent": true
+    },
+    {
+      "source": "/trabaja-con-nosotros.html",
+      "destination": "/trabaja-con-nosotros",
+      "permanent": true
     }
   ]
 }
