@@ -1,0 +1,10 @@
+{
+  "name": "reformasdodo-web",
+  "version": "1.0.0",
+  "description": "Web oficial de Reformas Dodo — reformas integrales en Sevilla",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}

@@ -2,5 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /content/
+Disallow: /api/
 
 Sitemap: https://www.reformasdodo.com/sitemap.xml
