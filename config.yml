@@ -1,0 +1,74 @@
+# Configuración de Decap CMS
+# https://decapcms.org/docs/configuration-options/
+
+backend:
+  name: github
+  repo: USUARIO/REPOSITORIO  # ⚠️ CAMBIAR: reemplaza con tu-usuario/tu-repo (ej: reformasdodo/web)
+  branch: main               # rama principal de tu repositorio
+  base_url: https://api.netlify.com  # servicio OAuth gratuito (no requiere cuenta Netlify)
+  auth_endpoint: auth
+
+# Publicación directa sin sistema editorial (más simple para 1 usuario)
+publish_mode: simple
+
+# Carpeta donde el CMS sube nuevas imágenes
+media_folder: "img"
+public_folder: "/img"
+
+# Idioma del panel
+locale: 'es'
+
+collections:
+  # ─────────────────────────────────────
+  # GALERÍA DE FOTOS (subir/borrar fotos)
+  # ─────────────────────────────────────
+  - name: "imagenes"
+    label: "📸 Galería de fotos"
+    label_singular: "Foto"
+    folder: "content/imagenes"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: titulo
+    summary: "{{titulo}}"
+    fields:
+      - {label: "Título de la foto", name: "titulo", widget: "string", hint: "Descripción corta que también se usa para SEO"}
+      - {label: "Foto", name: "imagen", widget: "image", required: true}
+      - {label: "Descripción (alt SEO)", name: "alt", widget: "string", hint: "Texto que Google leerá — describe la foto con palabras clave"}
+      - {label: "Categoría", name: "categoria", widget: "select", options: ["Baño", "Cocina", "Piso completo", "Fachada", "Carpintería", "Otros"], default: "Baño"}
+      - {label: "Fecha", name: "fecha", widget: "datetime", default: ""}
+      - {label: "Mostrar en la galería de proyectos", name: "publicado", widget: "boolean", default: true}
+
+  # ─────────────────────────────────────
+  # AJUSTES GENERALES
+  # ─────────────────────────────────────
+  - name: "config"
+    label: "⚙️ Ajustes generales"
+    files:
+      - name: "contacto"
+        label: "Datos de contacto"
+        file: "content/config/contacto.md"
+        fields:
+          - {label: "Teléfono", name: "telefono", widget: "string", default: "+34 632 632 439"}
+          - {label: "Email", name: "email", widget: "string", default: "reformasintegrales.dodo@gmail.com"}
+          - {label: "WhatsApp (con prefijo internacional)", name: "whatsapp", widget: "string", default: "34632632439"}
+          - {label: "Dirección", name: "direccion", widget: "text", default: "Barriada San Diego 7, 5º C, 41015 Sevilla"}
+          - {label: "Horario de atención", name: "horario", widget: "string", default: "Lunes a Viernes 8:00 - 19:00"}
+
+  # ─────────────────────────────────────
+  # ARTÍCULOS DEL BLOG
+  # ─────────────────────────────────────
+  - name: "blog"
+    label: "📝 Artículos del blog"
+    label_singular: "Artículo"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: titulo
+    fields:
+      - {label: "Título", name: "titulo", widget: "string"}
+      - {label: "URL (slug)", name: "slug", widget: "string", hint: "Sin espacios ni acentos. Ej: reformar-piso-sevilla"}
+      - {label: "Fecha", name: "fecha", widget: "datetime"}
+      - {label: "Foto de portada", name: "portada", widget: "image"}
+      - {label: "Resumen (SEO)", name: "resumen", widget: "text", hint: "Máximo 155 caracteres — aparece en Google"}
+      - {label: "Categoría", name: "categoria", widget: "select", options: ["Baños", "Cocinas", "Reforma integral", "Precios", "Consejos", "Fachadas"]}
+      - {label: "Contenido", name: "contenido", widget: "markdown"}

@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /content/
 
-Sitemap: https://www.reformasdodo.es/sitemap.xml
+Sitemap: https://www.reformasdodo.com/sitemap.xml
