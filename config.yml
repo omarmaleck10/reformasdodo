@@ -3,7 +3,7 @@
 
 backend:
   name: github
-  repo: USUARIO/REPOSITORIO  # ⚠️ CAMBIAR: reemplaza con tu-usuario/tu-repo (ej: reformasdodo/web)
+  repo: reformasdodo/reformasdodo-web  # ⚠️ CAMBIAR: reemplaza con tu-usuario/tu-repo (ej: reformasdodo/web)
   branch: main               # rama principal de tu repositorio
   base_url: https://api.netlify.com  # servicio OAuth gratuito (no requiere cuenta Netlify)
   auth_endpoint: auth
