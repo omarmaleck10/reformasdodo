@@ -171,13 +171,5 @@
         }
       ]
     }
-  ],
-  "functions": {
-    "api/auth.js": {
-      "runtime": "@vercel/node@3.0.0"
-    },
-    "api/callback.js": {
-      "runtime": "@vercel/node@3.0.0"
-    }
-  }
+  ]
 }
