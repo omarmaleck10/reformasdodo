@@ -13,18 +13,18 @@
 <style>
 /* ── RESET & TOKENS ── */
 :root{
-  --gd:#0f2d22; --gm:#1a5c3a; --gl:#2e7d52; --gp:#e6f2ec;
-  --go:#c9a84c; --gol:#e8c97a;
-  --white:#fff; --off:#f7f6f3;
-  --text:#181a19; --muted:#4a6057; --border:rgba(15,45,34,.12);
-  --serif:'Cormorant Garamond',Georgia,serif;
-  --sans:'DM Sans',system-ui,sans-serif;
-  --r3:3px; --r10:10px; --r18:18px;
-  --sh-sm:0 2px 12px rgba(15,45,34,.07);
-  --sh-md:0 6px 32px rgba(15,45,34,.11);
-  --sh-lg:0 16px 56px rgba(15,45,34,.17);
-  --ease:.28s cubic-bezier(.4,0,.2,1);
-  --max:1180px;
+ --gd:#0f2d22; --gm:#1a5c3a; --gl:#2e7d52; --gp:#e6f2ec;
+ --go:#c9a84c; --gol:#e8c97a;
+ --white:#fff; --off:#f7f6f3;
+ --text:#181a19; --muted:#4a6057; --border:rgba(15,45,34,.12);
+ --serif:'Cormorant Garamond',Georgia,serif;
+ --sans:'DM Sans',system-ui,sans-serif;
+ --r3:3px; --r10:10px; --r18:18px;
+ --sh-sm:0 2px 12px rgba(15,45,34,.07);
+ --sh-md:0 6px 32px rgba(15,45,34,.11);
+ --sh-lg:0 16px 56px rgba(15,45,34,.17);
+ --ease:.28s cubic-bezier(.4,0,.2,1);
+ --max:1180px;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -144,23 +144,23 @@ p{font-size:clamp(.9rem,1.5vw,1rem)}
 
 /* Tablet (≤900px) */
 @media(max-width:900px){
-  .footer-grid{grid-template-columns:1fr 1fr}
+ .footer-grid{grid-template-columns:1fr 1fr}
 }
 
 /* Tablet-mobile transition (≤768px) */
 @media(max-width:768px){
-  .nav-links,.nav-tel,.nav-right .btn{display:none}
-  .hamburger{display:flex}
-  .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
-  .footer-brand-desc{max-width:100%}
+ .nav-links,.nav-tel,.nav-right .btn{display:none}
+ .hamburger{display:flex}
+ .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
+ .footer-brand-desc{max-width:100%}
 }
 
 /* Mobile (≤540px) */
 @media(max-width:540px){
-  .footer-grid{grid-template-columns:1fr}
-  .footer-bottom{flex-direction:column;text-align:center}
-  .fb span{display:none} /* icon only on very small */
-  .fb{padding:12px}
+ .footer-grid{grid-template-columns:1fr}
+ .footer-bottom{flex-direction:column;text-align:center}
+ .fb span{display:none} /* icon only on very small */
+ .fb{padding:12px}
 }
 
 .hero{position:relative;min-height:100svh;display:flex;align-items:center;background:var(--gd);overflow:hidden}
@@ -301,268 +301,268 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('consent', 'default', {
-  'ad_storage': 'denied',
-  'ad_user_data': 'denied',
-  'ad_personalization': 'denied',
-  'analytics_storage': 'denied',
-  'wait_for_update': 500
+ 'ad_storage': 'denied',
+ 'ad_user_data': 'denied',
+ 'ad_personalization': 'denied',
+ 'analytics_storage': 'denied',
+ 'wait_for_update': 500
 });
 gtag('config', 'G-JH16PTKRRZ', {'anonymize_ip': true});
 // Load consent from cookie
 var savedConsent = localStorage.getItem('cookieConsent');
 if(savedConsent === 'all') {
-  gtag('consent', 'update', {'analytics_storage': 'granted'});
+ gtag('consent', 'update', {'analytics_storage': 'granted'});
 }
 </script>
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.reformasdodo.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.reformasdodo.com/blog"},
-    {"@type": "ListItem", "position": 3, "name": "Reforma integral de piso en Sevilla", "item": "https://www.reformasdodo.com/blog/reforma-integral-piso-sevilla-guia"}
-  ]
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.reformasdodo.com/"},
+  {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.reformasdodo.com/blog"},
+  {"@type": "ListItem", "position": 3, "name": "Reforma integral de piso en Sevilla", "item": "https://www.reformasdodo.com/blog/reforma-integral-piso-sevilla-guia"}
+ ]
 }
 </script>
 </head><body>
 <header class="site-header" id="site-header"><div class="wrap nav-wrap"><a href="/" class="nav-brand"><span class="nav-brand-name">Reformas Dodo</span></a><ul class="nav-links"><li><a href="/">Inicio</a></li><li><a href="/servicios">Servicios</a></li><li><a href="/proyectos">Proyectos</a></li><li><a href="/nosotros">Nosotros</a></li><li><a href="/blog" class=active>Blog</a></li><li><a href="/contacto">Contacto</a></li></ul><div class="nav-right"><a href="tel:+34632632439" class="nav-tel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 011 1.18 2 2 0 012.96 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+34 632 632 439</a><a href="/contacto" class="btn btn-gold">Presupuesto gratis</a></div><button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button></div></header><nav class="mob-nav" id="mob-nav"><a href="/" class="mob-link">Inicio</a><a href="/servicios" class="mob-link">Servicios</a><a href="/proyectos" class="mob-link">Proyectos</a><a href="/nosotros" class="mob-link">Nosotros</a><a href="/blog" class="mob-link">Blog</a><a href="/contacto" class="mob-link">Contacto</a><a href="tel:+34632632439" class="mob-link mob-tel">+34 632 632 439</a><a href="/contacto" class="mob-link mob-cta">Presupuesto gratis</a></nav>
 <div class="page-hero" style="padding-bottom:clamp(36px,5vw,56px)"><div class="wrap ph-inner">
-  <nav class="breadcrumb"><a href="/index.html">Inicio</a><span>›</span><a href="/blog/index.html">Blog</a><span>›</span><span>Reforma integral piso Sevilla</span></nav>
-  <div class="ph-ey"><span class="ph-line"></span><span class="ph-tag">Reformas Integrales en Sevilla</span></div>
-  <h1>Reforma Integral de Piso en Sevilla 2026: <em>Guia de Precios y Plazos</em></h1>
-  <p class="ph-sub">Precios, plazos y todo lo qué debes saber antes de comenzar la reforma integral de tu vivienda en Sevilla.</p>
+ <nav class="breadcrumb"><a href="/index.html">Inicio</a><span>›</span><a href="/blog/index.html">Blog</a><span>›</span><span>Reforma integral piso Sevilla</span></nav>
+ <div class="ph-ey"><span class="ph-line"></span><span class="ph-tag">Reformas Integrales en Sevilla</span></div>
+ <h1>Reforma Integral de Piso en Sevilla 2026: <em>Guia de Precios y Plazos</em></h1>
+ <p class="ph-sub">Precios, plazos y todo lo que debes saber antes de comenzar la reforma integral de tu vivienda en Sevilla.</p>
 </div></div>
 <div style="background:var(--off)"><div class="wrap"><div class="art-layout">
-  <article class="art-body">
-    <div class="art-meta">
-      <span class="art-cat">Reformas Integrales</span>
-      <span>5 mayo 2026</span>
-      <span>10 min de lectura</span>
-      <span>Reformas Dodo · Sevilla</span>
-    </div>
-    <img class="art-hero-img" src="/img/reforma-integral-de-vivienda-en-sevilla-2.jpg" alt="Reforma integral de vivienda en Sevilla" loading="eager" width="1000" height="563"/>
-
-    <p>Hacer una <strong>reforma integral de tu piso en Sevilla</strong> — o simplemente <strong>reformar un piso</strong> de forma parcial — es una de las decisiones max importantes qué puedes tomar para tu vivienda. En esta guia te explicamos todo lo qué necesitas saber: qué incluye una reforma integral, cuanto cuesta en Sevilla, cuanto tiempo lleva y cómo elegir la empresa adecuada.</p>
-
-    <h2>¿Qué incluye reformar un piso de forma integral en Sevilla</h2>
-    <p>Una reforma integral de vivienda en Sevilla cubre todos los aspectos de la renovación del inmueble:</p>
-    <ul>
-      <li><strong>Distribución:</strong> derribo y levantamiento de tabiqués, apertura de espacios</li>
-      <li><strong>Albañilería:</strong> soleras, guarnecidos, revocos</li>
-      <li><strong>Instalación eléctrica:</strong> cuadro nuevo, circuitos, mecanismos, iluminacion</li>
-      <li><strong>Fontanería:</strong> tuberias, baños, cocina, calefacción</li>
-      <li><strong>Suelos:</strong> porcelanico, tarima, microcemento o el material elegido</li>
-      <li><strong>Revestimientos:</strong> alicatados en baño y cocina</li>
-      <li><strong>Carpintería:</strong> puertas interiores, armarios</li>
-      <li><strong>Pintura:</strong> toda la vivienda</li>
-      <li><strong>Reforma de baño y cocina</strong> incluidas</li>
-    </ul>
-
-    <h2>Precio de reformar un piso en Sevilla en 2026</h2>
-    <table class="price-table">
-      <tr><th>Tamaño del piso</th><th>Precio orientativo</th><th>Duracion apróximada</th></tr>
-      <tr><td><strong>Piso pequéno</strong> (hasta 60 m2)</td><td>25.000 - 45.000 €</td><td>6-10 semanas</td></tr>
-      <tr><td><strong>Piso mediano</strong> (60-90 m2)</td><td>40.000 - 70.000 €</td><td>8-14 semanas</td></tr>
-      <tr><td><strong>Piso grande</strong> (90-120 m2)</td><td>60.000 - 100.000 €</td><td>12-18 semanas</td></tr>
-      <tr><td><strong>Chalet o unifamiliar</strong></td><td>Desde 80.000 €</td><td>Según proyecto</td></tr>
-    </table>
-    <div class="art-highlight"><p>El precio por metro cuadrado de una reforma integral en Sevilla oscila entre 350 y 900 €/m2 según la calidad de los materiales y la complejidad del proyecto.</p></div>
-
-    <h2>Fases de una reforma integral en Sevilla</h2>
-    <h3>Fase 1 - Demolicion y vaciado</h3>
-    <p>Se retiran todos los elementos existentes: pavimentos, revestimientos, instalaciónes antiguas y tabiqués qué se vayan a eliminar. Es la fase max sucia y ruidosa de la reforma.</p>
-    <h3>Fase 2 - Albañilería y estructura</h3>
-    <p>Se levanta la nueva distribución, se realizan las rozas para las instalaciónes y se ejecutan los trabajos de albañilería gruesa.</p>
-    <h3>Fase 3 - Instalaciónes</h3>
-    <p>Electricidad, fontanería, calefacción y cualquier otra instalación se ejecutan en paralelo durante esta fase.</p>
-    <h3>Fase 4 - Revestimientos y pavimentos</h3>
-    <p>Se colocan suelos, alicatados y revestimientos. Es una de las fases qué max impacto visual tiene en el resultado final.</p>
-    <h3>Fase 5 - Acabados</h3>
-    <p>Pintura, carpintería interior, sanitarios, griferia, iluminacion y todos los elementos de acabado. La vivienda empieza a tomar su aspecto definitivo.</p>
-
-    <h2>Como elegir la mejor empresa de reformas integrales en Sevilla</h2>
-    <p>Estos son los criterios max importantes para elegir una empresa de reformas en Sevilla de confianza:</p>
-    <ol>
-      <li><strong>Equipo propio, no subcontratado.</strong> Muchas empresas de reformas en Sevilla subcontratan todos los gremios. Esto dificulta el control de calidad y los plazos.</li>
-      <li><strong>Presupuesto detallado y precio cerrado.</strong> Exige un presupuesto desglosado y un precio fijo. Desconfía de los presupuestos muy vagos o con muchas partidas de "a determinar".</li>
-      <li><strong>Resenas y proyectos verificables.</strong> Pide ver proyectos anteriores o lee resenas reales en Google.</li>
-      <li><strong>Garantía por escrito.</strong> Toda empresa seria de reformas en Sevilla debe ofrecer garantía en los trabajos.</li>
-      <li><strong>Comúnicacion fluida.</strong> Durante una reforma integral en Sevilla vas a tener muchas dudas. Elige una empresa qué te responda con ágilidad.</li>
-    </ol>
-
-    <div class="art-cta">
-      <h3>Pide tu presupuesto de reforma integral en Sevilla</h3>
-      <p>Visita gratuita a domicilio. Presupuesto en 24 horas. Sin compromiso.</p>
-      <a href="/contacto.html" class="btn btn-gold">Solicitar presupuesto gratis</a>
-    </div>
-  </article>
-  <aside class="art-sidebar">
-  <div class="sidebar-card" style="background:var(--gd);border-color:var(--gd)">
-    <h4 style="color:var(--white)">Presupuesto gratis en 24h</h4>
-    <p style="color:rgba(255,255,255,.6)">Cuéntaños tu proyecto y te respondemos con un presupuesto detallado sin compromiso.</p>
-    <a href="/contacto.html" class="btn btn-gold" style="width:100%;justify-content:center">Pedir presupuesto</a>
+ <article class="art-body">
+  <div class="art-meta">
+   <span class="art-cat">Reformas Integrales</span>
+   <span>5 mayo 2026</span>
+   <span>10 min de lectura</span>
+   <span>Reformas Dodo · Sevilla</span>
   </div>
-  <div class="sidebar-card">
-    <h4>Otros artículos</h4>
-    <div class="sidebar-links">
-      <a href="/blog/cuanto-cuesta-reformar-baño-sevilla.html">¿Cuánto cuesta reformar un baño en Sevilla?</a>
-      <a href="/blog/reforma-integral-piso-sevilla-guia.html">Reforma integral de piso en Sevilla: guía</a>
-      <a href="/blog/reformar-cocina-sevilla-claves.html">Claves para reformar tu cocina en Sevilla</a>
-    </div>
+  <img class="art-hero-img" src="/img/reforma-integral-de-vivienda-en-sevilla-2.jpg" alt="Reforma integral de vivienda en Sevilla" loading="eager" width="1000" height="563"/>
+
+  <p>Hacer una <strong>reforma integral de tu piso en Sevilla</strong> — o simplemente <strong>reformar un piso</strong> de forma parcial — es una de las decisiones más importantes que puedes tomar para tu vivienda. En esta guía te explicamos todo lo que necesitas saber: qué incluye una reforma integral, cuánto cuesta en Sevilla, cuánto tiempo lleva y cómo elegir la empresa adecuada.</p>
+
+  <h2>¿Qué incluye reformar un piso de forma integral en Sevilla</h2>
+  <p>Una reforma integral de vivienda en Sevilla cubre todos los aspectos de la renovación del inmueble:</p>
+  <ul>
+   <li><strong>Distribución:</strong> derribo y levantamiento de tabiques, apertura de espacios</li>
+   <li><strong>Albañilería:</strong> soleras, guarnecidos, revocos</li>
+   <li><strong>Instalación eléctrica:</strong> cuadro nuevo, circuitos, mecanismos, iluminación</li>
+   <li><strong>Fontanería:</strong> tuberías, baños, cocina, calefacción</li>
+   <li><strong>Suelos:</strong> porcelánico, tarima, microcemento o el material elegido</li>
+   <li><strong>Revestimientos:</strong> alicatados en baño y cocina</li>
+   <li><strong>Carpintería:</strong> puertas interiores, armarios</li>
+   <li><strong>Pintura:</strong> toda la vivienda</li>
+   <li><strong>Reforma de baño y cocina</strong> incluidas</li>
+  </ul>
+
+  <h2>Precio de reformar un piso en Sevilla en 2026</h2>
+  <table class="price-table">
+   <tr><th>Tamaño del piso</th><th>Precio orientativo</th><th>Duración apróximada</th></tr>
+   <tr><td><strong>Piso pequeño</strong> (hasta 60 m²)</td><td>25.000 - 45.000 €</td><td>6-10 semanas</td></tr>
+   <tr><td><strong>Piso mediano</strong> (60-90 m²)</td><td>40.000 - 70.000 €</td><td>8-14 semanas</td></tr>
+   <tr><td><strong>Piso grande</strong> (90-120 m²)</td><td>60.000 - 100.000 €</td><td>12-18 semanas</td></tr>
+   <tr><td><strong>Chalet o unifamiliar</strong></td><td>Desde 80.000 €</td><td>Según proyecto</td></tr>
+  </table>
+  <div class="art-highlight"><p>El precio por metro cuadrado de una reforma integral en Sevilla oscila entre 350 y 900 €/m² según la calidad de los materiales y la complejidad del proyecto.</p></div>
+
+  <h2>Fases de una reforma integral en Sevilla</h2>
+  <h3>Fase 1 - Demolición y vaciado</h3>
+  <p>Se retiran todos los elementos existentes: pavimentos, revestimientos, instalaciones antiguas y tabiques que se vayan a eliminar. Es la fase más sucia y ruidosa de la reforma.</p>
+  <h3>Fase 2 - Albañilería y estructura</h3>
+  <p>Se levanta la nueva distribución, se realizan las rozas para las instalaciones y se ejecutan los trabajos de albañilería gruesa.</p>
+  <h3>Fase 3 - Instalaciones</h3>
+  <p>Electricidad, fontanería, calefacción y cualquier otra instalación se ejecutan en paralelo durante esta fase.</p>
+  <h3>Fase 4 - Revestimientos y pavimentos</h3>
+  <p>Se colocan suelos, alicatados y revestimientos. Es una de las fases que más impacto visual tiene en el resultado final.</p>
+  <h3>Fase 5 - Acabados</h3>
+  <p>Pintura, carpintería interior, sanitarios, grifería, iluminación y todos los elementos de acabado. La vivienda empieza a tomar su aspecto definitivo.</p>
+
+  <h2>Cómo elegir la mejor empresa de reformas integrales en Sevilla</h2>
+  <p>Estos son los criterios más importantes para elegir una empresa de reformas en Sevilla de confianza:</p>
+  <ol>
+   <li><strong>Equipo propio, no subcontratado.</strong> Muchas empresas de reformas en Sevilla subcontratan todos los gremios. Esto dificulta el control de calidad y los plazos.</li>
+   <li><strong>Presupuesto detallado y precio cerrado.</strong> Exige un presupuesto desglosado y un precio fijo. Desconfía de los presupuestos muy vagos o con muchas partidas de "a determinar".</li>
+   <li><strong>Reseñas y proyectos verificables.</strong> Pide ver proyectos anteriores o lee reseñas reales en Google.</li>
+   <li><strong>Garantía por escrito.</strong> Toda empresa seria de reformas en Sevilla debe ofrecer garantía en los trabajos.</li>
+   <li><strong>Comunicación fluida.</strong> Durante una reforma integral en Sevilla vas a tener muchas dudas. Elige una empresa que te responda con agilidad.</li>
+  </ol>
+
+  <div class="art-cta">
+   <h3>Pide tu presupuesto de reforma integral en Sevilla</h3>
+   <p>Visita gratuita a domicilio. Presupuesto en 24 horas. Sin compromiso.</p>
+   <a href="/contacto.html" class="btn btn-gold">Solicitar presupuesto gratis</a>
   </div>
-  <div class="sidebar-card">
-    <h4>Contacto directo</h4>
-    <p>Llámaños o escríbenos por WhatsApp.</p>
-    <div style="display:flex;flex-direction:column;gap:8px">
-      <a href="tel:+34632632439" class="btn btn-ghost-g" style="width:100%;justify-content:center;font-size:.74rem">+34 632 632 439</a>
-      <a href="https://wa.me/34632632439" target="_blank" rel="noopener" class="btn btn-gold" style="width:100%;justify-content:center;font-size:.74rem;background:#25D366;color:#fff">WhatsApp</a>
-    </div>
+ </article>
+ <aside class="art-sidebar">
+ <div class="sidebar-card" style="background:var(--gd);border-color:var(--gd)">
+  <h4 style="color:var(--white)">Presupuesto gratis en 24h</h4>
+  <p style="color:rgba(255,255,255,.6)">Cuéntanos tu proyecto y te respondemos con un presupuesto detallado sin compromiso.</p>
+  <a href="/contacto.html" class="btn btn-gold" style="width:100%;justify-content:center">Pedir presupuesto</a>
+ </div>
+ <div class="sidebar-card">
+  <h4>Otros artículos</h4>
+  <div class="sidebar-links">
+   <a href="/blog/cuanto-cuesta-reformar-baño-sevilla.html">¿Cuánto cuesta reformar un baño en Sevilla?</a>
+   <a href="/blog/reforma-integral-piso-sevilla-guia.html">Reforma integral de piso en Sevilla: guía</a>
+   <a href="/blog/reformar-cocina-sevilla-claves.html">Claves para reformar tu cocina en Sevilla</a>
   </div>
+ </div>
+ <div class="sidebar-card">
+  <h4>Contacto directo</h4>
+  <p>Llámanos o escríbenos por WhatsApp.</p>
+  <div style="display:flex;flex-direction:column;gap:8px">
+   <a href="tel:+34632632439" class="btn btn-ghost-g" style="width:100%;justify-content:center;font-size:.74rem">+34 632 632 439</a>
+   <a href="https://wa.me/34632632439" target="_blank" rel="noopener" class="btn btn-gold" style="width:100%;justify-content:center;font-size:.74rem;background:#25D366;color:#fff">WhatsApp</a>
+  </div>
+ </div>
 </aside>
 </div></div></div>
 <footer class="site-footer" aria-label="Pie de página Reformas Dodo">
-  <div class="wrap">
-    <div class="footer-grid footer-grid-5">
-      <div>
-        <div class="footer-brand-name">Reformas Dodo</div>
-        <p class="footer-brand-desc">Empresa de reformas integrales en Sevilla y Andalucia. Baños, cocinas, fachadas, suelos, pintura, electricidad y fontanería. Más de 10 años y 200+ proyectos completados en Sevilla.</p>
-      </div>
+ <div class="wrap">
+  <div class="footer-grid footer-grid-5">
+   <div>
+    <div class="footer-brand-name">Reformas Dodo</div>
+    <p class="footer-brand-desc">Empresa de reformas integrales en Sevilla y Andalucía. Baños, cocinas, fachadas, suelos, pintura, electricidad y fontanería. Más de 10 años y 200+ proyectos completados en Sevilla.</p>
+   </div>
+   <div class="footer-col">
+    <h5>Servicios</h5>
+    <ul class="footer-links">
+     <li><a href="/servicios#baños">Reformas de Baños Sevilla</a></li>
+     <li><a href="/servicios#cocinas">Reformas de Cocinas Sevilla</a></li>
+     <li><a href="/servicios#integrales">Reformas Integrales</a></li>
+     <li><a href="/servicios#fachadas">Reformas de Fachadas</a></li>
+     <li><a href="/servicios#electricidad">Instalaciones Eléctricas</a></li>
+     <li><a href="/servicios#fontanería">Fontanería Sevilla</a></li>
+     <li><a href="/servicios#pintura">Pintura Sevilla</a></li>
+     <li><a href="/servicios#carpintería">Carpintería</a></li>
+    </ul>
+   </div>
       <div class="footer-col">
-        <h5>Servicios</h5>
-        <ul class="footer-links">
-          <li><a href="/servicios#baños">Reformas de Baños Sevilla</a></li>
-          <li><a href="/servicios#cocinas">Reformas de Cocinas Sevilla</a></li>
-          <li><a href="/servicios#integrales">Reformas Integrales</a></li>
-          <li><a href="/servicios#fachadas">Reformas de Fachadas</a></li>
-          <li><a href="/servicios#electricidad">Instalaciónes Eléctricas</a></li>
-          <li><a href="/servicios#fontanería">Fontanería Sevilla</a></li>
-          <li><a href="/servicios#pintura">Pintura Sevilla</a></li>
-          <li><a href="/servicios#carpintería">Carpintería</a></li>
-        </ul>
-      </div>
-            <div class="footer-col">
-        <h5>Zonas</h5>
-        <ul class="footer-links">
-          <li><a href="/reformas-dos-hermanas">Reformas en Dos Hermanas</a></li>
-          <li><a href="/reformas-alcala-de-guadaira">Reformas en Alcalá de Guadaíra</a></li>
-          <li><a href="/reformas-utrera">Reformas en Utrera</a></li>
-          <li><a href="/reformas-mairena-del-aljarafe">Reformas en Mairena del Aljarafe</a></li>
-          <li><a href="/reformas-la-rinconada">Reformas en La Rinconada</a></li>
-          <li><a href="/reformas-coria-del-rio">Reformas en Coria del Río</a></li>
-          <li><a href="/reformas-camas">Reformas en Camas</a></li>
-          <li><a href="/reformas-tomares">Reformas en Tomares</a></li>
-          <li><a href="/reformas-san-juan-de-aznalfarache">Reformas en San Juan de Aznalfarache</a></li>
-          <li><a href="/reformas-bormujos">Reformas en Bormujos</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h5>Empresa</h5>
-        <ul class="footer-links">
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/nosotros">Nosotros</a></li>
-          <li><a href="/servicios">Todos los servicios</a></li>
-          <li><a href="/proyectos">Proyectos</a></li>
-          <li><a href="/blog">Blog de reformas</a></li>
-          <li><a href="/contacto">Presupuesto gratis</a></li>
-          <li><a href="/trabaja-con-nosotros">Trabaja con nosotros</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h5>Contacto</h5>
-        <div class="footer-ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 011 1.18 2 2 0 012.96 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+34632632439">+34 632 632 439</a></div>
-        <div class="footer-ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:reformasintegrales.dodo@gmail.com">reformasintegrales.dodo@gmail.com</a></div>
-        <div class="footer-ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Sevilla y toda Andalucia</span></div>
-        <div class="footer-ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Lun-Vie 8:00-19:00</span></div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 Reformas Dodo · Empresa de reformas integrales en Sevilla</span>
-      <div style="display:flex;gap:16px;flex-wrap:wrap">
-        <a href="/aviso-legal" style="font-size:.7rem;color:rgba(255,255,255,.22);transition:color .2s" onmouseover="this.style.color='rgba(255,255,255,.6)'" onmouseout="this.style.color='rgba(255,255,255,.22)'">Aviso Legal</a>
-        <a href="/politica-privacidad" style="font-size:.7rem;color:rgba(255,255,255,.22);transition:color .2s" onmouseover="this.style.color='rgba(255,255,255,.6)'" onmouseout="this.style.color='rgba(255,255,255,.22)'">Privacidad</a>
-        <a href="/politica-cookies" style="font-size:.7rem;color:rgba(255,255,255,.22);transition:color .2s" onmouseover="this.style.color='rgba(255,255,255,.6)'" onmouseout="this.style.color='rgba(255,255,255,.22)'">Cookies</a>
-      </div>
-    </div>
-    <p class="footer-seo" aria-hidden="true">Reformas Sevilla · Reformas integrales Sevilla · Empresa reformas Sevilla · Reformas baño Sevilla · Reformas cocina Sevilla · Reforma piso Sevilla · Reformas Andalucia · Albañilería Sevilla · Fontanería Sevilla · Pintura Sevilla · Presupuesto reformas Sevilla · Reformas Dos Hermanas · Reformas Alcala de Guadaira · Reformas Mairena del Aljarafe · Empresa reformas Triana · Reformas Nervion Sevilla</p>
+    <h5>Zonas</h5>
+    <ul class="footer-links">
+     <li><a href="/reformas-dos-hermanas">Reformas en Dos Hermanas</a></li>
+     <li><a href="/reformas-alcala-de-guadaira">Reformas en Alcalá de Guadaíra</a></li>
+     <li><a href="/reformas-utrera">Reformas en Utrera</a></li>
+     <li><a href="/reformas-mairena-del-aljarafe">Reformas en Mairena del Aljarafe</a></li>
+     <li><a href="/reformas-la-rinconada">Reformas en La Rinconada</a></li>
+     <li><a href="/reformas-coria-del-rio">Reformas en Coria del Río</a></li>
+     <li><a href="/reformas-camas">Reformas en Camas</a></li>
+     <li><a href="/reformas-tomares">Reformas en Tomares</a></li>
+     <li><a href="/reformas-san-juan-de-aznalfarache">Reformas en San Juan de Aznalfarache</a></li>
+     <li><a href="/reformas-bormujos">Reformas en Bormujos</a></li>
+    </ul>
+   </div>
+   <div class="footer-col">
+    <h5>Empresa</h5>
+    <ul class="footer-links">
+     <li><a href="/">Inicio</a></li>
+     <li><a href="/nosotros">Nosotros</a></li>
+     <li><a href="/servicios">Todos los servicios</a></li>
+     <li><a href="/proyectos">Proyectos</a></li>
+     <li><a href="/blog">Blog de reformas</a></li>
+     <li><a href="/contacto">Presupuesto gratis</a></li>
+     <li><a href="/trabaja-con-nosotros">Trabaja con nosotros</a></li>
+    </ul>
+   </div>
+   <div class="footer-col">
+    <h5>Contacto</h5>
+    <div class="footer-ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 011 1.18 2 2 0 012.96 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+34632632439">+34 632 632 439</a></div>
+    <div class="footer-ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:reformasintegrales.dodo@gmail.com">reformasintegrales.dodo@gmail.com</a></div>
+    <div class="footer-ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Sevilla y toda Andalucía</span></div>
+    <div class="footer-ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Lun-Vie 8:00-19:00</span></div>
+   </div>
   </div>
+  <div class="footer-bottom">
+   <span>© 2026 Reformas Dodo · Empresa de reformas integrales en Sevilla</span>
+   <div style="display:flex;gap:16px;flex-wrap:wrap">
+    <a href="/aviso-legal" style="font-size:.7rem;color:rgba(255,255,255,.22);transition:color .2s" onmouseover="this.style.color='rgba(255,255,255,.6)'" onmouseout="this.style.color='rgba(255,255,255,.22)'">Aviso Legal</a>
+    <a href="/politica-privacidad" style="font-size:.7rem;color:rgba(255,255,255,.22);transition:color .2s" onmouseover="this.style.color='rgba(255,255,255,.6)'" onmouseout="this.style.color='rgba(255,255,255,.22)'">Privacidad</a>
+    <a href="/politica-cookies" style="font-size:.7rem;color:rgba(255,255,255,.22);transition:color .2s" onmouseover="this.style.color='rgba(255,255,255,.6)'" onmouseout="this.style.color='rgba(255,255,255,.22)'">Cookies</a>
+   </div>
+  </div>
+  <p class="footer-seo" aria-hidden="true">Reformas Sevilla · Reformas integrales Sevilla · Empresa reformas Sevilla · Reformas baño Sevilla · Reformas cocina Sevilla · Reforma piso Sevilla · Reformas Andalucía · Albañilería Sevilla · Fontanería Sevilla · Pintura Sevilla · Presupuesto reformas Sevilla · Reformas Dos Hermanas · Reformas Alcalá de Guadaíra · Reformas Mairena del Aljarafe · Empresa reformas Triana · Reformas Nervion Sevilla</p>
+ </div>
 </footer><div class="floating-cta" aria-label="Contacto rápido">
-  <a href="https://wa.me/34632632439?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20un%20presupuesto%20de%20reforma." class="fb fb-wa" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.555 4.122 1.524 5.863L.057 23.885a.5.5 0 00.608.628l6.178-1.62A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.9a9.9 9.9 0 01-5.042-1.372l-.362-.215-3.734.979.996-3.639-.237-.374A9.865 9.865 0 012.1 12C2.1 6.535 6.535 2.1 12 2.1c5.463 0 9.9 4.435 9.9 9.9 0 5.463-4.437 9.9-9.9 9.9z"/></svg>
-    <span>WhatsApp</span>
-  </a>
-  <a href="tel:+34632632439" class="fb fb-ph" aria-label="Llamar a Reformas Dodo">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 011 1.18 2 2 0 012.96 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-    <span>Llamar</span>
-  </a>
+ <a href="https://wa.me/34632632439?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20un%20presupuesto%20de%20reforma." class="fb fb-wa" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.555 4.122 1.524 5.863L.057 23.885a.5.5 0 00.608.628l6.178-1.62A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.9a9.9 9.9 0 01-5.042-1.372l-.362-.215-3.734.979.996-3.639-.237-.374A9.865 9.865 0 012.1 12C2.1 6.535 6.535 2.1 12 2.1c5.463 0 9.9 4.435 9.9 9.9 0 5.463-4.437 9.9-9.9 9.9z"/></svg>
+  <span>WhatsApp</span>
+ </a>
+ <a href="tel:+34632632439" class="fb fb-ph" aria-label="Llamar a Reformas Dodo">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 011 1.18 2 2 0 012.96 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+  <span>Llamar</span>
+ </a>
 </div>
 <script>
 (function(){
-  // Header scroll
-  var h=document.getElementById('site-header');
-  window.addEventListener('scroll',function(){h.classList.toggle('scrolled',window.scrollY>50)},{passive:true});
+ // Header scroll
+ var h=document.getElementById('site-header');
+ window.addEventListener('scroll',function(){h.classList.toggle('scrolled',window.scrollY>50)},{passive:true});
 
-  // Mobile nav
-  var hb=document.getElementById('hamburger'),mn=document.getElementById('mob-nav');
-  function closeMob(){
-    hb.setAttribute('aria-expanded','false');
-    mn.classList.remove('open');
-    document.body.style.overflow='';
-  }
-  if(hb&&mn){
-    hb.addEventListener('click',function(){
-      var open=mn.classList.contains('open');
-      if(open){closeMob();}
-      else{hb.setAttribute('aria-expanded','true');mn.classList.add('open');document.body.style.overflow='hidden';}
-    });
-    mn.querySelectorAll('.mob-link').forEach(function(l){l.addEventListener('click',closeMob);});
-    // Close on resize to desktop
-    window.addEventListener('resize',function(){if(window.innerWidth>768)closeMob();});
-  }
+ // Mobile nav
+ var hb=document.getElementById('hamburger'),mn=document.getElementById('mob-nav');
+ function closeMob(){
+  hb.setAttribute('aria-expanded','false');
+  mn.classList.remove('open');
+  document.body.style.overflow='';
+ }
+ if(hb&&mn){
+  hb.addEventListener('click',function(){
+   var open=mn.classList.contains('open');
+   if(open){closeMob();}
+   else{hb.setAttribute('aria-expanded','true');mn.classList.add('open');document.body.style.overflow='hidden';}
+  });
+  mn.querySelectorAll('.mob-link').forEach(function(l){l.addEventListener('click',closeMob);});
+  // Close on resize to desktop
+  window.addEventListener('resize',function(){if(window.innerWidth>768)closeMob();});
+ }
 
-  // Scroll reveal
-  if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(entries){
-      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}});
-    },{threshold:0.08,rootMargin:'0px 0px -32px 0px'});
-    document.querySelectorAll('.rev').forEach(function(el){io.observe(el);});
-  } else {
-    document.querySelectorAll('.rev').forEach(function(el){el.classList.add('on');});
-  }
+ // Scroll reveal
+ if('IntersectionObserver' in window){
+  var io=new IntersectionObserver(function(entries){
+   entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}});
+  },{threshold:0.08,rootMargin:'0px 0px -32px 0px'});
+  document.querySelectorAll('.rev').forEach(function(el){io.observe(el);});
+ } else {
+  document.querySelectorAll('.rev').forEach(function(el){el.classList.add('on');});
+ }
 })();
 </script>
 
 <!-- COOKIE BANNER -->
 <div id="cookie-banner" role="dialog" aria-live="polite" aria-label="Aviso de cookies" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;background:var(--gd);color:rgba(255,255,255,.85);padding:clamp(14px,2vw,20px) clamp(16px,4vw,32px);box-shadow:0 -4px 24px rgba(0,0,0,.2);animation:slideUp .4s ease">
-  <div style="max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:clamp(12px,3vw,28px);flex-wrap:wrap">
-    <div style="flex:1;min-width:240px">
-      <p style="font-size:clamp(.78rem,1.2vw,.88rem);line-height:1.6;margin:0">
-        Usamos cookies propias y de terceros para mejorar tu experiencia y analizar el trafico. Puedes aceptar todas, rechazar las no esenciales o personalizar tu elección.
-        <a href="/politica-cookies.html" style="color:var(--go);text-decoration:underline;margin-left:4px">Politica de Cookies</a> ·
-        <a href="/politica-privacidad.html" style="color:var(--go);text-decoration:underline">Privacidad</a>
-      </p>
-    </div>
-    <div style="display:flex;gap:8px;flex-wrap:wrap;flex-shrink:0">
-      <button id="cookie-reject" style="padding:9px 18px;font-size:.72rem;font-weight:500;letter-spacing:.07em;text-transform:uppercase;border:1px solid rgba(255,255,255,.3);border-radius:2px;color:rgba(255,255,255,.7);background:transparent;cursor:pointer;transition:all .2s">Solo esenciales</button>
-      <button id="cookie-accept" style="padding:9px 18px;font-size:.72rem;font-weight:500;letter-spacing:.07em;text-transform:uppercase;background:var(--go);color:var(--gd);border:none;border-radius:2px;cursor:pointer;transition:all .2s">Aceptar todas</button>
-    </div>
+ <div style="max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:clamp(12px,3vw,28px);flex-wrap:wrap">
+  <div style="flex:1;min-width:240px">
+   <p style="font-size:clamp(.78rem,1.2vw,.88rem);line-height:1.6;margin:0">
+    Usamos cookies propias y de terceros para mejorar tu experiencia y analizar el tráfico. Puedes aceptar todas, rechazar las no esenciales o personalizar tu elección.
+    <a href="/politica-cookies.html" style="color:var(--go);text-decoration:underline;margin-left:4px">Politica de Cookies</a> ·
+    <a href="/politica-privacidad.html" style="color:var(--go);text-decoration:underline">Privacidad</a>
+   </p>
   </div>
+  <div style="display:flex;gap:8px;flex-wrap:wrap;flex-shrink:0">
+   <button id="cookie-reject" style="padding:9px 18px;font-size:.72rem;font-weight:500;letter-spacing:.07em;text-transform:uppercase;border:1px solid rgba(255,255,255,.3);border-radius:2px;color:rgba(255,255,255,.7);background:transparent;cursor:pointer;transition:all .2s">Solo esenciales</button>
+   <button id="cookie-accept" style="padding:9px 18px;font-size:.72rem;font-weight:500;letter-spacing:.07em;text-transform:uppercase;background:var(--go);color:var(--gd);border:none;border-radius:2px;cursor:pointer;transition:all .2s">Aceptar todas</button>
+  </div>
+ </div>
 </div>
 <style>@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}</style>
 <script>
 (function(){
-  var banner=document.getElementById('cookie-banner');
-  var consent=localStorage.getItem('cookieConsent');
-  if(!consent) setTimeout(function(){banner.style.display='block';},800);
-  document.getElementById('cookie-accept').addEventListener('click',function(){
-    localStorage.setItem('cookieConsent','all');
-    if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'granted'});}
-    banner.style.display='none';
-  });
-  document.getElementById('cookie-reject').addEventListener('click',function(){
-    localStorage.setItem('cookieConsent','essential');
-    banner.style.display='none';
-  });
+ var banner=document.getElementById('cookie-banner');
+ var consent=localStorage.getItem('cookieConsent');
+ if(!consent) setTimeout(function(){banner.style.display='block';},800);
+ document.getElementById('cookie-accept').addEventListener('click',function(){
+  localStorage.setItem('cookieConsent','all');
+  if(typeof gtag==='function'){gtag('consent','update',{'analytics_storage':'granted'});}
+  banner.style.display='none';
+ });
+ document.getElementById('cookie-reject').addEventListener('click',function(){
+  localStorage.setItem('cookieConsent','essential');
+  banner.style.display='none';
+ });
 })();
 </script>
 </body></html>
