@@ -63,6 +63,16 @@
       "permanent": true
     },
     {
+      "source": "/blog/cuanto-cuesta-reformar-ba%C3%B1o-sevilla.html",
+      "destination": "/blog/cuanto-cuesta-reformar-bano-sevilla",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cuanto-cuesta-reformar-ba%C3%B1o-sevilla",
+      "destination": "/blog/cuanto-cuesta-reformar-bano-sevilla",
+      "permanent": true
+    },
+    {
       "source": "/blog/cuanto-cuesta-reformar-bano-sevilla.html",
       "destination": "/blog/cuanto-cuesta-reformar-bano-sevilla",
       "permanent": true
