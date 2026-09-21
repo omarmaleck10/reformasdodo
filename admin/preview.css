@@ -1,0 +1,21 @@
+/* Estilos del preview del CMS — para que Decap muestre visualmente el resultado */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #181a19;
+  line-height: 1.7;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+h1, h2, h3, h4 {
+  font-family: Georgia, serif;
+  color: #0f2d22;
+  line-height: 1.2;
+}
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+a { color: #c9a84c; }
+strong { color: #0f2d22; }

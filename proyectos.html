@@ -187,7 +187,7 @@ p{font-size:clamp(.9rem,1.5vw,1rem)}
 .gf-wrap{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:clamp(24px,4vw,40px);justify-content:center}
 .gf-btn{padding:9px 18px;font-size:.72rem;font-weight:500;letter-spacing:.07em;text-transform:uppercase;border:1px solid var(--border);border-radius:2px;color:var(--muted);background:var(--white);cursor:pointer;transition:all var(--ease)}
 .gf-btn.active,.gf-btn:hover{background:var(--gm);color:var(--white);border-color:var(--gm)}
-.másonry{columns:3;column-gap:clamp(8px,1.5vw,14px)}
+.masonry{columns:3;column-gap:clamp(8px,1.5vw,14px)}
 .m-item{break-inside:avoid;margin-bottom:clamp(8px,1.5vw,14px);border-radius:var(--r10);overflow:hidden;position:relative;cursor:pointer}
 .m-item img{width:100%;display:block;transition:transform .5s ease}
 .m-item:hover img{transform:scale(1.04)}
@@ -196,8 +196,8 @@ p{font-size:clamp(.9rem,1.5vw,1rem)}
 .m-label strong{display:block;font-size:clamp(.78rem,1.2vw,.88rem);font-weight:500;color:var(--white)}
 .m-label span{font-size:clamp(.68rem,1vw,.76rem);color:rgba(255,255,255,.65)}
 .hidden{display:none!important}
-@media(max-width:768px){.másonry{columns:2}}
-@media(max-width:420px){.másonry{columns:1}}
+@media(max-width:768px){.masonry{columns:2}}
+@media(max-width:420px){.masonry{columns:1}}
 
 .footer-grid-5{grid-template-columns:1.6fr 1fr 1fr 1fr!important}
 @media(max-width:900px){.footer-grid-5{grid-template-columns:1fr 1fr!important}}
@@ -248,7 +248,7 @@ if(savedConsent === 'all') {
   <button class="gf-btn" data-gcat="integral">Reformas integrales</button>
   <button class="gf-btn" data-gcat="exterior">Exterior y fachadas</button>
  </div>
- <div class="másonry" id="gallery">
+ <div class="masonry" id="gallery">
   <div class="m-item" data-gcat="baño"><img src="/img/reforma-de-bano-hidraulico-turquesa-sevilla.jpg" alt="Reforma de baño con suelo hidráulico turquesa en Sevilla" loading="lazy"/><div class="m-ov"><div class="m-label"><strong>Baño con suelo hidráulico</strong><span>Sevilla</span></div></div></div>
   <div class="m-item" data-gcat="baño"><img src="/img/reforma-de-bano-moderno-mueble-gris-sevilla.jpg" alt="Reforma de baño con mueble gris y ducha negra en Sevilla" loading="lazy"/><div class="m-ov"><div class="m-label"><strong>Baño mueble gris y ducha negra</strong><span>Sevilla</span></div></div></div>
   <div class="m-item" data-gcat="baño"><img src="/img/reforma-de-bano-moderno-en-sevilla.jpg" alt="Reforma de baño con azulejo efecto mármol en Sevilla" loading="lazy"/><div class="m-ov"><div class="m-label"><strong>Baño azulejo efecto mármol</strong><span>Sevilla</span></div></div></div>
@@ -258,7 +258,7 @@ if(savedConsent === 'all') {
   <div class="m-item" data-gcat="integral"><img src="/img/reforma-integral-de-vivienda-en-sevilla.jpg" alt="Reforma de dormitorio con papel pintado en Sevilla" loading="lazy"/><div class="m-ov"><div class="m-label"><strong>Dormitorio con papel pintado</strong><span>Sevilla</span></div></div></div>
   <div class="m-item" data-gcat="integral"><img src="/img/reforma-de-cocina-moderna-en-sevilla.jpg" alt="Reforma de cocina con alicatado y fontanería en Sevilla" loading="lazy"/><div class="m-ov"><div class="m-label"><strong>Cocina en obra alicatado y fontanería</strong><span>Sevilla</span></div></div></div>
   <div class="m-item" data-gcat="exterior"><img src="/img/instalacion-de-toldo-exterior-en-sevilla.jpg" alt="Instalación de toldo metálico exterior en Sevilla" loading="lazy"/><div class="m-ov"><div class="m-label"><strong>Toldo metálico exterior</strong><span>Sevilla</span></div></div></div>
-  <div class="m-item" data-gcat="integral"><img src="/img/mueble-salón-a-medida-en-sevilla.jpg" alt="Mueble de salón a medida en Sevilla" loading="lazy"/><div class="m-ov"><div class="m-label"><strong>Mueble salón a medida</strong><span>Sevilla</span></div></div></div>
+  <div class="m-item" data-gcat="integral"><img src="/img/mueble-salon-a-medida-en-sevilla.jpg" alt="Mueble de salón a medida en Sevilla" loading="lazy"/><div class="m-ov"><div class="m-label"><strong>Mueble salón a medida</strong><span>Sevilla</span></div></div></div>
   <div class="m-item" data-gcat="integral"><img src="/img/armario-empotrado-a-medida-en-sevilla.jpg" alt="Armario empotrado a medida en Sevilla" loading="lazy"/><div class="m-ov"><div class="m-label"><strong>Armario empotrado a medida</strong><span>Sevilla</span></div></div></div>
   <div class="m-item" data-gcat="integral"><img src="/img/puertas-interiores-de-madera-en-sevilla.jpg" alt="Puertas interiores de madera en Sevilla" loading="lazy"/><div class="m-ov"><div class="m-label"><strong>Puertas interiores de madera</strong><span>Sevilla</span></div></div></div>
   <div class="m-item" data-gcat="integral"><img src="/img/puerta-corredera-de-madera-en-sevilla.jpg" alt="Puerta corredera de madera en Sevilla" loading="lazy"/><div class="m-ov"><div class="m-label"><strong>Puerta corredera de madera</strong><span>Sevilla</span></div></div></div>
@@ -383,7 +383,66 @@ if(savedConsent === 'all') {
 </script>
 <script>
 var gfBtns=document.querySelectorAll('.gf-btn'),items=document.querySelectorAll('.m-item');
-gfBtns.forEach(function(b){b.addEventListener('click',function(){gfBtns.forEach(function(x){x.classList.remove('active')});b.classList.add('active');var cat=b.dataset.gcat;items.forEach(function(item){item.classList.toggle('hidden',cat!=='all'&&item.dataset.gcat!==cat);});});});
+gfBtns.forEach(function(b){b.addEventListener('click',function(){gfBtns.forEach(function(x){x.classList.remove('active')});b.classList.add('active');var cat=b.dataset.gcat;document.querySelectorAll('.m-item').forEach(function(item){item.classList.toggle('hidden',cat!=='all'&&item.dataset.gcat!==cat);});});});
+
+// ══════════════════════════════════════════════════════════════
+// Carga dinámica de fotos añadidas desde el panel de administración
+// Las fotos publicadas en el CMS aparecen en primer lugar en la galería
+// ══════════════════════════════════════════════════════════════
+(function loadCmsPhotos(){
+  var gallery = document.getElementById('gallery');
+  if(!gallery) return;
+
+  // Mapeo de categorías del CMS a los data-gcat de los filtros
+  var catMap = {
+    'Baño': 'baño', 'Baños': 'baño',
+    'Cocina': 'cocina', 'Cocinas': 'cocina',
+    'Piso completo': 'integral', 'Reforma integral': 'integral',
+    'Salón': 'integral', 'Dormitorio': 'integral', 'Carpintería': 'integral',
+    'Fachada': 'exterior', 'Otros': 'integral'
+  };
+
+  fetch('/api/gallery')
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(data){
+      if(!data || !data.items || !data.items.length) return;
+      var fragment = document.createDocumentFragment();
+
+      data.items.forEach(function(item){
+        var wrapper = document.createElement('div');
+        wrapper.className = 'm-item';
+        wrapper.dataset.gcat = catMap[item.categoria] || 'integral';
+
+        var img = document.createElement('img');
+        img.src = item.imagen;
+        img.alt = item.alt || item.titulo || 'Reforma en Sevilla';
+        img.loading = 'lazy';
+        wrapper.appendChild(img);
+
+        var overlay = document.createElement('div');
+        overlay.className = 'm-ov';
+        var label = document.createElement('div');
+        label.className = 'm-label';
+        var strong = document.createElement('strong');
+        strong.textContent = item.titulo || '';
+        var span = document.createElement('span');
+        span.textContent = item.ubicacion || 'Sevilla';
+        label.appendChild(strong);
+        label.appendChild(span);
+        overlay.appendChild(label);
+        wrapper.appendChild(overlay);
+
+        fragment.appendChild(wrapper);
+      });
+
+      // Insertar al principio de la galería
+      gallery.insertBefore(fragment, gallery.firstChild);
+    })
+    .catch(function(err){
+      // Fallo silencioso: la galería mantiene sus fotos estáticas
+      console.warn('No se pudieron cargar fotos del panel:', err);
+    });
+})();
 </script>
 
 <!-- COOKIE BANNER -->

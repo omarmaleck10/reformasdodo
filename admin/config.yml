@@ -1,47 +1,190 @@
-# Configuración de Decap CMS — Reformas Dodo
-# Repositorio: omarmaleck10/reformasdodo
+# ══════════════════════════════════════════════════════════════
+# Decap CMS — Reformas Dodo · Panel de administración
+# Repositorio: omarmaleck10/reformasdodo (rama main)
+# OAuth propio en Vercel: /api/auth + /api/callback
+# ══════════════════════════════════════════════════════════════
 
 backend:
   name: github
   repo: omarmaleck10/reformasdodo
   branch: main
-  # OAuth propio en Vercel (endpoint /api/auth y /api/callback)
   base_url: https://www.reformasdodo.com
   auth_endpoint: api/auth
+  commit_messages:
+    create: '📷 Añadida foto "{{slug}}"'
+    update: '✏️ Actualizada foto "{{slug}}"'
+    delete: '🗑️ Eliminada foto "{{slug}}"'
+    uploadMedia: '📤 Subida imagen {{path}}'
+    deleteMedia: '🗑️ Borrada imagen {{path}}'
 
-# Publicación directa sin sistema editorial (más simple para 1 usuario)
+# Publicación directa (1 clic → despliegue en Vercel)
 publish_mode: simple
 
-# Carpeta donde el CMS sube imágenes nuevas
+# ── Media ─────────────────────────────────────────────────────
+# Imágenes se suben a /img/ (misma carpeta que usa la web)
 media_folder: "img"
 public_folder: "/img"
+# Permitir arrastrar y soltar múltiples imágenes en la biblioteca
+media_library:
+  name: default
 
-# Idioma del panel
+# Locale del panel (interfaz en español)
 locale: 'es'
 
+# ══════════════════════════════════════════════════════════════
+# Colecciones
+# ══════════════════════════════════════════════════════════════
 collections:
-  # ─────────────────────────────────────
-  # GALERÍA DE FOTOS
-  # ─────────────────────────────────────
+
+  # ──────────────────────────────────────────────────────────
+  # 📸 GALERÍA DE FOTOS — muestra thumbnails al listar
+  # ──────────────────────────────────────────────────────────
   - name: "imagenes"
     label: "📸 Galería de fotos"
     label_singular: "Foto"
     folder: "content/imagenes"
     create: true
+    delete: true
+    slug: "{{fields.orden}}-{{slug}}"
+    identifier_field: titulo
+    # Muestra thumbnail + info en el listado
+    summary: "{{titulo}} · {{categoria}}{{#if publicado}} · ✓ Publicada{{/if}}"
+    summary_fields:
+      - imagen
+      - titulo
+      - categoria
+      - publicado
+    sortable_fields: ['orden', 'fecha', 'titulo', 'categoria']
+    view_filters:
+      - label: "✓ Solo publicadas"
+        field: publicado
+        pattern: true
+      - label: "⏸ Solo borradores"
+        field: publicado
+        pattern: false
+      - label: "Categoría · Baño"
+        field: categoria
+        pattern: "Baño"
+      - label: "Categoría · Cocina"
+        field: categoria
+        pattern: "Cocina"
+      - label: "Categoría · Piso completo"
+        field: categoria
+        pattern: "Piso completo"
+      - label: "Categoría · Fachada"
+        field: categoria
+        pattern: "Fachada"
+    view_groups:
+      - label: "Agrupar por categoría"
+        field: categoria
+      - label: "Agrupar por estado"
+        field: publicado
+    fields:
+      - label: "Foto"
+        name: "imagen"
+        widget: "image"
+        required: true
+        media_folder: "/img"
+        public_folder: "/img"
+        hint: "Arrastra la foto aquí o pulsa para elegir. Recomendado: 1200×900 px (mínimo 800 px de ancho), JPG o WebP, menos de 500 KB. Usa el nombre en minúsculas y sin acentos."
+      - label: "Título de la foto"
+        name: "titulo"
+        widget: "string"
+        required: true
+        hint: "Frase breve descriptiva. Se muestra debajo de la imagen. Ej: 'Reforma de baño moderno en Nervión'"
+      - label: "Descripción SEO (texto alternativo)"
+        name: "alt"
+        widget: "string"
+        required: true
+        hint: "Lo que Google lee cuando no puede ver la imagen. Sé descriptivo con palabras clave. Ej: 'Reforma integral de baño con plato de ducha y microcemento en Sevilla'"
+      - label: "Categoría"
+        name: "categoria"
+        widget: "select"
+        required: true
+        options:
+          - "Baño"
+          - "Cocina"
+          - "Piso completo"
+          - "Fachada"
+          - "Carpintería"
+          - "Salón"
+          - "Dormitorio"
+          - "Otros"
+        default: "Baño"
+      - label: "Orden de aparición"
+        name: "orden"
+        widget: "number"
+        required: false
+        default: 50
+        value_type: "int"
+        min: 1
+        max: 999
+        hint: "Un número más bajo la mostrará antes. Deja 50 si no importa el orden."
+      - label: "Fecha de la foto"
+        name: "fecha"
+        widget: "datetime"
+        required: false
+        date_format: "DD/MM/YYYY"
+        time_format: false
+        default: ""
+        hint: "Cuándo se hizo la obra. Opcional, no se muestra."
+      - label: "Ubicación"
+        name: "ubicacion"
+        widget: "string"
+        required: false
+        hint: "Barrio o municipio. Opcional, ayuda al SEO local. Ej: 'Triana, Sevilla'"
+      - label: "Publicada en la galería web"
+        name: "publicado"
+        widget: "boolean"
+        default: true
+        hint: "Desactiva para ocultarla temporalmente sin borrarla."
+
+  # ──────────────────────────────────────────────────────────
+  # 📝 ARTÍCULOS DEL BLOG
+  # ──────────────────────────────────────────────────────────
+  - name: "blog"
+    label: "📝 Artículos del blog"
+    label_singular: "Artículo"
+    folder: "content/blog"
+    create: true
+    delete: true
     slug: "{{slug}}"
     identifier_field: titulo
-    summary: "{{titulo}}"
+    summary: "{{titulo}} · {{fecha | date('DD/MM/YYYY')}}"
+    sortable_fields: ['fecha', 'titulo', 'categoria']
+    view_filters:
+      - label: "Categoría · Baños"
+        field: categoria
+        pattern: "Baños"
+      - label: "Categoría · Cocinas"
+        field: categoria
+        pattern: "Cocinas"
+      - label: "Categoría · Reforma integral"
+        field: categoria
+        pattern: "Reforma integral"
     fields:
-      - {label: "Título de la foto", name: "titulo", widget: "string", hint: "Descripción corta que también se usa para SEO"}
-      - {label: "Foto", name: "imagen", widget: "image", required: true}
-      - {label: "Descripción (alt SEO)", name: "alt", widget: "string", hint: "Texto que Google leerá — describe la foto con palabras clave"}
-      - {label: "Categoría", name: "categoria", widget: "select", options: ["Baño", "Cocina", "Piso completo", "Fachada", "Carpintería", "Otros"], default: "Baño"}
-      - {label: "Fecha", name: "fecha", widget: "datetime", default: ""}
-      - {label: "Mostrar en la galería de proyectos", name: "publicado", widget: "boolean", default: true}
+      - {label: "Título", name: "titulo", widget: "string"}
+      - {label: "URL (slug)", name: "slug", widget: "string", hint: "Sin espacios ni acentos. Ej: reformar-piso-sevilla"}
+      - {label: "Fecha", name: "fecha", widget: "datetime", date_format: "DD/MM/YYYY", time_format: false}
+      - {label: "Foto de portada", name: "portada", widget: "image"}
+      - {label: "Resumen (SEO)", name: "resumen", widget: "text", hint: "Máximo 155 caracteres — aparece en Google"}
+      - label: "Categoría"
+        name: "categoria"
+        widget: "select"
+        options:
+          - "Baños"
+          - "Cocinas"
+          - "Reforma integral"
+          - "Precios"
+          - "Consejos"
+          - "Fachadas"
+          - "Tendencias"
+          - "Diseño"
+      - {label: "Contenido", name: "contenido", widget: "markdown"}
 
-  # ─────────────────────────────────────
-  # AJUSTES GENERALES
-  # ─────────────────────────────────────
+  # ──────────────────────────────────────────────────────────
+  # ⚙️ AJUSTES GENERALES
+  # ──────────────────────────────────────────────────────────
   - name: "config"
     label: "⚙️ Ajustes generales"
     files:
@@ -51,25 +194,6 @@ collections:
         fields:
           - {label: "Teléfono", name: "telefono", widget: "string", default: "+34 632 632 439"}
           - {label: "Email", name: "email", widget: "string", default: "reformasintegrales.dodo@gmail.com"}
-          - {label: "WhatsApp (con prefijo internacional)", name: "whatsapp", widget: "string", default: "34632632439"}
+          - {label: "WhatsApp (con prefijo internacional, sin +)", name: "whatsapp", widget: "string", default: "34632632439"}
           - {label: "Dirección", name: "direccion", widget: "text", default: "Barriada San Diego 7, 5º C, 41015 Sevilla"}
           - {label: "Horario de atención", name: "horario", widget: "string", default: "Lunes a Viernes 8:00 - 19:00"}
-
-  # ─────────────────────────────────────
-  # ARTÍCULOS DEL BLOG
-  # ─────────────────────────────────────
-  - name: "blog"
-    label: "📝 Artículos del blog"
-    label_singular: "Artículo"
-    folder: "content/blog"
-    create: true
-    slug: "{{slug}}"
-    identifier_field: titulo
-    fields:
-      - {label: "Título", name: "titulo", widget: "string"}
-      - {label: "URL (slug)", name: "slug", widget: "string", hint: "Sin espacios ni acentos. Ej: reformar-piso-sevilla"}
-      - {label: "Fecha", name: "fecha", widget: "datetime"}
-      - {label: "Foto de portada", name: "portada", widget: "image"}
-      - {label: "Resumen (SEO)", name: "resumen", widget: "text", hint: "Máximo 155 caracteres — aparece en Google"}
-      - {label: "Categoría", name: "categoria", widget: "select", options: ["Baños", "Cocinas", "Reforma integral", "Precios", "Consejos", "Fachadas"]}
-      - {label: "Contenido", name: "contenido", widget: "markdown"}
