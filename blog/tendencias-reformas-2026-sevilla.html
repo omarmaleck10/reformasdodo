@@ -320,6 +320,10 @@ p{font-size:clamp(.9rem,1.5vw,1rem)}
 
 <h2>1. Cocinas abiertas al salón: la reina indiscutible</h2>
 <p>La <strong>cocina abierta al salón</strong> lleva años imponiéndose y en 2026 se consolida como la elección predeterminada en reformas de pisos en Sevilla. Ya no se concibe una vivienda moderna sin ese espacio único donde cocinar, comer y hacer vida familiar en el mismo ambiente.</p>
+<div class="art-highlight" style="margin:32px 0;padding:24px;background:var(--off);border-left:4px solid var(--go);border-radius:4px">
+<p style="margin:0;font-size:1rem"><strong>¿Vas a reformar tu piso completo?</strong> Lee nuestra <a href="/blog/reforma-integral-piso-sevilla-guia" style="color:var(--go);font-weight:600">Guía Completa de Reforma Integral en Sevilla 2026</a> con precios reales, plazos, licencias y FAQ ampliado.</p>
+</div>
+
 <p>Variantes que triunfan:</p>
 <ul>
  <li><strong>Isla o península central</strong> con placa de inducción integrada</li>
@@ -464,9 +468,10 @@ p{font-size:clamp(.9rem,1.5vw,1rem)}
    <div class="footer-col">
     <h5>Servicios</h5>
     <ul class="footer-links">
-     <li><a href="/servicios#baños">Reformas de Baños Sevilla</a></li>
-     <li><a href="/servicios#cocinas">Reformas de Cocinas Sevilla</a></li>
+     <li><a href="/reformas-banos-sevilla">Reformas de Baños Sevilla</a></li>
+     <li><a href="/reformas-cocinas-sevilla">Reformas de Cocinas Sevilla</a></li>
      <li><a href="/servicios#integrales">Reformas Integrales</a></li>
+     <li><a href="/presupuesto-reforma-sevilla">Pedir Presupuesto</a></li>
      <li><a href="/servicios#fachadas">Reformas de Fachadas</a></li>
      <li><a href="/servicios#electricidad">Instalaciones Eléctricas</a></li>
      <li><a href="/servicios#fontanería">Fontanería Sevilla</a></li>
@@ -487,6 +492,9 @@ p{font-size:clamp(.9rem,1.5vw,1rem)}
      <li><a href="/reformas-tomares">Reformas en Tomares</a></li>
      <li><a href="/reformas-san-juan-de-aznalfarache">Reformas en San Juan de Aznalfarache</a></li>
      <li><a href="/reformas-bormujos">Reformas en Bormujos</a></li>
+     <li><a href="/reformas-castilleja-de-la-cuesta">Reformas en Castilleja de la Cuesta</a></li>
+     <li><a href="/reformas-espartinas">Reformas en Espartinas</a></li>
+     <li><a href="/reformas-gines">Reformas en Gines</a></li>
     </ul>
    </div>
    <div class="footer-col">
@@ -598,4 +606,42 @@ p{font-size:clamp(.9rem,1.5vw,1rem)}
  });
 })();
 </script>
+<script>/* === TRACKING-CONVERSIONES-DODO === */</script>
+
+<script>
+// ══════════════════════════════════════════════════════════════
+// Tracking de conversiones: WhatsApp, teléfono, email
+// Envía eventos a GA4 cada vez que un visitante inicia contacto
+// ══════════════════════════════════════════════════════════════
+(function(){
+  if(typeof window==='undefined')return;
+  function track(ev,label){
+    try{
+      if(typeof gtag==='function'){
+        gtag('event',ev,{event_category:'contacto',event_label:label||'',value:1});
+      }
+    }catch(e){}
+  }
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a');
+    if(!a)return;
+    var href=(a.getAttribute('href')||'').toLowerCase();
+    if(href.indexOf('wa.me/')>-1||href.indexOf('whatsapp.com')>-1){
+      track('click_whatsapp',a.href);
+    }else if(href.indexOf('tel:')===0){
+      track('click_telefono',href.replace('tel:',''));
+    }else if(href.indexOf('mailto:')===0){
+      track('click_email',href.replace('mailto:',''));
+    }
+  },{passive:true});
+  // Formulario de contacto (Formspree)
+  document.addEventListener('submit',function(e){
+    var f=e.target;
+    if(f && f.action && f.action.indexOf('formspree')>-1){
+      track('submit_formulario','formulario_contacto');
+    }
+  },{passive:true});
+})();
+</script>
+
 </body>

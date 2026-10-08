@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Reformas en Sevilla | Empresa de Reformas Integrales | Reformas Dodo</title>
-<meta name="description" content="Empresa de reformas en Sevilla con más de 10 años de experiencia. Reformas integrales de pisos, baños y cocinas con presupuesto cerrado, plazos garantizados y garantía por escrito. Diseño 3D opcional. Llama al 632 632 439."/>
+<title>Reformas Integrales Sevilla ✓ Presupuesto en 24h | Reformas Dodo</title>
+<meta name="description" content="Empresa de reformas en Sevilla con presupuesto cerrado, plazos garantizados y 2 años de garantía. Baños, cocinas y pisos completos. Pide tu presupuesto gratis en 24h ☎ 632 632 439"/>
 <meta name="keywords" content="reformas sevilla, empresa reformas sevilla, reformas integrales sevilla, reforma piso sevilla, reforma baño sevilla, reforma cocina sevilla, reformas llave en mano sevilla, presupuesto reforma sevilla, reformas andalucia"/>
 <meta name="robots" content="index,follow"/>
  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
@@ -780,9 +780,10 @@ document.querySelectorAll('.faqm-q').forEach(function(q){
    <div class="footer-col">
     <h5>Servicios</h5>
     <ul class="footer-links">
-     <li><a href="/servicios#baños">Reformas de Baños Sevilla</a></li>
-     <li><a href="/servicios#cocinas">Reformas de Cocinas Sevilla</a></li>
+     <li><a href="/reformas-banos-sevilla">Reformas de Baños Sevilla</a></li>
+     <li><a href="/reformas-cocinas-sevilla">Reformas de Cocinas Sevilla</a></li>
      <li><a href="/servicios#integrales">Reformas Integrales</a></li>
+     <li><a href="/presupuesto-reforma-sevilla">Pedir Presupuesto</a></li>
      <li><a href="/servicios#fachadas">Reformas de Fachadas</a></li>
      <li><a href="/servicios#electricidad">Instalaciones Eléctricas</a></li>
      <li><a href="/servicios#fontanería">Fontanería Sevilla</a></li>
@@ -803,6 +804,9 @@ document.querySelectorAll('.faqm-q').forEach(function(q){
      <li><a href="/reformas-tomares">Reformas en Tomares</a></li>
      <li><a href="/reformas-san-juan-de-aznalfarache">Reformas en San Juan de Aznalfarache</a></li>
      <li><a href="/reformas-bormujos">Reformas en Bormujos</a></li>
+     <li><a href="/reformas-castilleja-de-la-cuesta">Reformas en Castilleja de la Cuesta</a></li>
+     <li><a href="/reformas-espartinas">Reformas en Espartinas</a></li>
+     <li><a href="/reformas-gines">Reformas en Gines</a></li>
     </ul>
    </div>
    <div class="footer-col">
@@ -915,4 +919,42 @@ document.querySelectorAll('.faqm-q').forEach(function(q){
  });
 })();
 </script>
+<script>/* === TRACKING-CONVERSIONES-DODO === */</script>
+
+<script>
+// ══════════════════════════════════════════════════════════════
+// Tracking de conversiones: WhatsApp, teléfono, email
+// Envía eventos a GA4 cada vez que un visitante inicia contacto
+// ══════════════════════════════════════════════════════════════
+(function(){
+  if(typeof window==='undefined')return;
+  function track(ev,label){
+    try{
+      if(typeof gtag==='function'){
+        gtag('event',ev,{event_category:'contacto',event_label:label||'',value:1});
+      }
+    }catch(e){}
+  }
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a');
+    if(!a)return;
+    var href=(a.getAttribute('href')||'').toLowerCase();
+    if(href.indexOf('wa.me/')>-1||href.indexOf('whatsapp.com')>-1){
+      track('click_whatsapp',a.href);
+    }else if(href.indexOf('tel:')===0){
+      track('click_telefono',href.replace('tel:',''));
+    }else if(href.indexOf('mailto:')===0){
+      track('click_email',href.replace('mailto:',''));
+    }
+  },{passive:true});
+  // Formulario de contacto (Formspree)
+  document.addEventListener('submit',function(e){
+    var f=e.target;
+    if(f && f.action && f.action.indexOf('formspree')>-1){
+      track('submit_formulario','formulario_contacto');
+    }
+  },{passive:true});
+})();
+</script>
+
 </body></html>
